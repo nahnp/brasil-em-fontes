@@ -6,10 +6,12 @@ O pedido de linha do tempo foi atendido com as referências localizadas sobre os
 
 Cada registro tem data do episódio ou período aproximado, data da reportagem, fonte e limite de evidência. Eventos de 2023–2025 da segunda matéria foram descritos retrospectivamente em reportagens de 13/10/2026; não se apresentam como notícias publicadas na época. Não se fixa ano para o inquérito mencionado em maio sem confirmação adicional.
 
-As fontes institucionais TSE são contexto primário. CNN, Agência Brasil, Band, Metrópoles, UOL e Agência Estado são cobertura jornalística; não substituem decisões judiciais, peças processuais ou perícia. As posições da campanha, Meta e envolvidos permanecem atribuídas às partes.
+A seleção editorial de notícias está restrita a UOL e Mídia NINJA. As cronologias escritas remetem às reportagens originais do UOL; os vídeos são de UOL e Mídia NINJA. Os canais institucionais permanecem no diretório e no guia de cidadania. Reportagens não substituem decisões judiciais, peças processuais ou perícia. As posições da campanha, Meta e envolvidos permanecem atribuídas às partes.
 
 Solicitar esclarecimentos não comprova interferência eleitoral. Diferenças de métricas não provam causalidade. A reportagem UOL e a investigação mencionada não equivalem a condenação. Identidades de mulheres, vítimas, passaportes, contatos e detalhes íntimos não foram reproduzidos.
 
 Os textos são resumos curtos com links para leitura original. Não há cópia integral de artigos ou download dos vídeos. O player usa `youtube-nocookie.com` e só é carregado quando o visitante clica. O YouTube continua sendo um serviço externo.
 
 Correções, novas fontes e desdobramentos entram por pull request e aprovação. Os coletores automáticos produzem apenas referências locais; não alteram a cronologia pública sem revisão.
+
+A resposta de Vorcaro incorporada à reportagem original em 13/10 foi incluída. O podcast Monica fornecido trata de JavaScript e foi autorizado como conteúdo técnico separado; não é evidência dos casos jornalísticos.

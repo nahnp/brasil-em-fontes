@@ -37,3 +37,7 @@ let events=0;
 for(const item of timelines.cases){assert(/^[a-zA-Z0-9_-]{11}$/.test(item.video_id));assert(item.gaps.length>0);let previous='';for(const event of item.events){assert(/^\d{4}(-\d{2})?(-\d{2})?$/.test(event.date));assert(event.date>=previous,'Unsorted timeline');previous=event.date;assert(event.reported_at<=timelines.reviewed_at,'Source after cutoff');assert.equal(new URL(event.source_url).protocol,'https:');assert(event.evidence&&event.source_name&&event.type);events++}}
 assert(html.includes('timeline.html')&&html.includes('cidadania.html'));
 console.log(`Validated citizenship translations, no report form, ${events} dated timeline records with attribution and gaps.`);
+
+for(const item of timelines.cases){assert(['UOL','Mídia NINJA'].includes(item.video_channel));for(const event of item.events){assert.equal(new URL(event.source_url).hostname,'noticias.uol.com.br');assert.equal(event.source_name.startsWith('UOL'),true);}}
+assert(readFileSync('timeline.html','utf8').includes('id="podcast-tecnico"'));
+console.log('Validated editorial allowlist and separate technical podcast.');

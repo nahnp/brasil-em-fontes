@@ -7,40 +7,174 @@
       "title": "Meta e TSE: métricas das campanhas de Lula e Flávio",
       "video_id": "pZ1xMs4aqi0",
       "video_channel": "Mídia NINJA",
-      "summary": "A campanha de Lula apresentou alegações sobre restrições nas plataformas. O TSE solicitou esclarecimentos. A Meta nega favorecimento eleitoral e apresenta explicações técnicas. Solicitar informações não equivale a comprovar interferência.",
-      "gaps": ["Inteiro teor e número do processo ainda não localizados nesta pesquisa.","Não foi localizada decisão final de mérito neste levantamento.","Contagem de reproduções, alcance, engajamento e anúncios são métricas diferentes.","Sem confirmação da intimação, não é possível calcular o vencimento exato do prazo judicial."],
+      "summary": "A campanha apresentou alegações sobre restrições nas plataformas. O UOL relata pedido de esclarecimentos do TSE. A cronologia identifica a cobertura consultada; solicitar informações não comprova interferência.",
+      "gaps": [
+        "Inteiro teor e número do processo ainda não localizados nesta pesquisa.",
+        "Não foi localizada decisão final de mérito neste levantamento.",
+        "Contagem de reproduções, alcance, engajamento e anúncios são métricas diferentes.",
+        "Sem confirmação da intimação, não é possível calcular o vencimento exato do prazo judicial."
+      ],
       "events": [
-        {"date":"2026-07-16","date_label":"16 jul 2026","type":"context","title":"Cooperação institucional com plataformas","text":"O TSE informa que uma reunião com plataformas digitais deu origem à adesão ao programa de enfrentamento à desinformação.","source_name":"TSE — fonte institucional","source_url":"https://www.tse.jus.br/comunicacao/noticias/2026/Julho/eleicoes-2026-parceria-entre-tse-e-facebook-preve-canais-de-denuncia-e-comunicacao-direta-com-eleitores","reported_at":"2026-07-27","evidence":"Contexto confirmado em publicação institucional; não comprova o caso posterior."},
-        {"date":"2026-07-27","date_label":"27 jul 2026","type":"context","title":"Acordo TSE–Facebook divulgado","text":"Publicação do TSE descreve canais de comunicação, cooperação contra desinformação e transparência de anúncios para as eleições.","source_name":"TSE — fonte institucional","source_url":"https://www.tse.jus.br/comunicacao/noticias/2026/Julho/eleicoes-2026-parceria-entre-tse-e-facebook-preve-canais-de-denuncia-e-comunicacao-direta-com-eleitores","reported_at":"2026-07-27","evidence":"Documento de contexto, distinto da disputa sobre alcance."},
-        {"date":"2026-09-23","date_label":"23 set 2026","type":"response","title":"Episódio da conta de anúncios","text":"Segundo a Band, a resposta da Meta reconheceu desativação indevida da conta de anúncios e posterior restabelecimento.","source_name":"Band — reportagem","source_url":"https://www.band.com.br/politica/eleicoes/meta-admite-falhas-e-remove-perfis-irregulares-apos-acao-de-lula","reported_at":"2026-10-13","evidence":"Versão da empresa reportada posteriormente; documento original não localizado."},
-        {"date":"2026-10-07","date_label":"7 out 2026","type":"response","title":"Falha na contagem, segundo a Meta","text":"A empresa atribui o episódio a um erro global no contador de Reels e afirma que a distribuição não foi afetada.","source_name":"Metrópoles — reportagem","source_url":"https://www.metropoles.com/colunas/manoela-alcantara/meta-nega-operar-para-favorecer-ou-prejudicar-candidatos-nas-eleicoes","reported_at":"2026-10-13","evidence":"Declaração da parte; causalidade não confirmada de forma independente."},
-        {"date":"2026-10-10","date_label":"10 out 2026","type":"allegation","title":"Alegações da campanha tornam-se notícia","text":"A CNN relata a representação da campanha de Lula sobre distribuição de conteúdo e contas supostamente inautênticas.","source_name":"CNN Brasil — reportagem","source_url":"https://www.cnnbrasil.com.br/eleicoes/tse-da-48h-para-meta-provar-que-tratou-lula-e-flavio-de-forma-igual/","reported_at":"2026-10-10","evidence":"Data da cobertura; a data exata do protocolo ainda não foi confirmada."},
-        {"date":"2026-10-10","date_label":"10 out 2026","type":"judicial","title":"TSE solicita esclarecimentos em 48 horas","text":"Segundo a CNN, Marco Aurélio Bellizze pediu informações técnicas à Meta e metodologia dos levantamentos citados na disputa.","source_name":"CNN Brasil — reportagem","source_url":"https://www.cnnbrasil.com.br/eleicoes/tse-da-48h-para-meta-provar-que-tratou-lula-e-flavio-de-forma-igual/","reported_at":"2026-10-10","evidence":"Ato judicial reportado; não é decisão que comprove favorecimento eleitoral."},
-        {"date":"2026-10-11","date_label":"11 out 2026 · 12h13","type":"response","title":"Agência Brasil registra a posição da Meta","text":"A reportagem reproduz a negativa de favorecimento e a explicação de problemas técnicos não exclusivos do Brasil.","source_name":"Agência Brasil — jornalismo público","source_url":"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/meta-alega-problemas-tecnicos-para-menor-alcance-de-lula-nas-redes","reported_at":"2026-10-11","evidence":"Posicionamento da empresa atribuído à fonte; não prova técnica independente."},
-        {"date":"2026-10-12","date_label":"12 out 2026","type":"response","title":"Resposta enviada ao tribunal, segundo reportagem","text":"O Metrópoles informa que os esclarecimentos da Meta foram apresentados em 12 de outubro, negando tratamento direcionado a candidatos.","source_name":"Metrópoles — reportagem publicada em 13/10","source_url":"https://www.metropoles.com/colunas/manoela-alcantara/meta-nega-operar-para-favorecer-ou-prejudicar-candidatos-nas-eleicoes","reported_at":"2026-10-13","evidence":"Data do envio atribuída ao veículo; peça processual original pendente."},
-        {"date":"2026-10-13","date_label":"13 out 2026 · 14h28","type":"response","title":"Remoção de perfis e explicações adicionais","text":"A Band noticia que a Meta analisou contas citadas na ação e informou a remoção de sete perfis por violações.","source_name":"Band — reportagem","source_url":"https://www.band.com.br/politica/eleicoes/meta-admite-falhas-e-remove-perfis-irregulares-apos-acao-de-lula","reported_at":"2026-10-13","evidence":"Explicação atribuída à empresa; não demonstra sozinha manipulação eleitoral."}
+        {
+          "date": "2026-10-08",
+          "date_label": "8 out 2026",
+          "type": "allegation",
+          "title": "Campanha apresenta reclamação",
+          "text": "Segundo o UOL, a coligação de Lula alegou restrições no alcance e na conta de anúncios.",
+          "source_name": "UOL — reportagem",
+          "source_url": "https://noticias.uol.com.br/eleicoes/2026/10/11/decisoes-de-tse-sao-mais-rapidas-para-flavio-pedidos-de-lula-sao-travados.htm",
+          "reported_at": "2026-10-11",
+          "evidence": "Alegação da parte; documento processual original não localizado."
+        },
+        {
+          "date": "2026-10-11",
+          "date_label": "11 out 2026 · data da reportagem",
+          "type": "judicial",
+          "title": "UOL relata pedido de esclarecimentos",
+          "text": "O UOL relata que Bellizze pediu manifestação técnica da Meta em 48 horas, sem conceder a medida urgente.",
+          "source_name": "UOL — reportagem",
+          "source_url": "https://noticias.uol.com.br/eleicoes/2026/10/11/decisoes-de-tse-sao-mais-rapidas-para-flavio-pedidos-de-lula-sao-travados.htm",
+          "reported_at": "2026-10-11",
+          "evidence": "Data da cobertura, não confirmação da data do despacho. Não comprova interferência eleitoral."
+        }
       ]
     },
     {
-      "id":"vorcaro-uol",
-      "title":"Reportagem UOL: Daniel Vorcaro e alegações de recrutamento",
-      "video_id":"aPEp5kVjVVk",
-      "video_channel":"UOL",
-      "summary":"O UOL publicou reportagem baseada em mensagens que atribui a envolvidos. A cronologia abaixo distingue episódios descritos retrospectivamente da data de publicação. Não reproduz dados de mulheres ou vítimas nem apresenta investigação como condenação.",
-      "gaps":["Documentos originais da investigação da PF não foram localizados neste levantamento.","Autenticidade e contexto integral dos materiais não foram verificados independentemente pelo portal.","O texto menciona abertura de inquérito em maio; o ano não foi confirmado no trecho consultado, por isso esse ponto não recebeu uma data inventada.","A data de publicação dos vídeos não foi confirmada pelo oEmbed; a data da reportagem escrita é identificada separadamente."],
-      "events":[
-        {"date":"2023-10","date_label":"Outubro de 2023 · mês","type":"allegation","title":"Ideia de agência nas mensagens reportadas","text":"A cobertura descreve proposta de usar uma agência para organizar contratações.","source_name":"Agência Estado / UOL — cobertura retrospectiva","source_url":"https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/13/mensagens-apontam-vorcaro-como-socio-de-rede-de-prostituicao-e-recrutamento-diz-portal.amp.htm","reported_at":"2026-10-13","evidence":"Episódio atribuído às mensagens pela reportagem, não constatação judicial."},
-        {"date":"2023-11","date_label":"Novembro de 2023 · mês","type":"allegation","title":"Discussões sobre permanência de estrangeiras","text":"A reportagem relata conversas sobre permanência de estrangeiras e sua inclusão em uma agência.","source_name":"Agência Estado / UOL","source_url":"https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/13/mensagens-apontam-vorcaro-como-socio-de-rede-de-prostituicao-e-recrutamento-diz-portal.amp.htm","reported_at":"2026-10-13","evidence":"Alegação jornalística; identidades pessoais foram omitidas pelo portal."},
-        {"date":"2023-12","date_label":"Dezembro de 2023 · mês","type":"allegation","title":"Negociação de participação empresarial","text":"A cobertura descreve um contrato de participação em agência; a conclusão da negociação é contestada.","source_name":"Agência Estado / UOL","source_url":"https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/13/mensagens-apontam-vorcaro-como-socio-de-rede-de-prostituicao-e-recrutamento-diz-portal.amp.htm","reported_at":"2026-10-13","evidence":"Não tratar contrato mencionado como prova definitiva de sociedade concluída."},
-        {"date":"2024-01","date_label":"Janeiro de 2024 · mês","type":"allegation","title":"Estrutura e recrutamento descritos","text":"O veículo relata mensagens sobre organização da agência, cadastramento e imóvel para participantes.","source_name":"Agência Estado / UOL","source_url":"https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/13/mensagens-apontam-vorcaro-como-socio-de-rede-de-prostituicao-e-recrutamento-diz-portal.amp.htm","reported_at":"2026-10-13","evidence":"Descrição retrospectiva atribuída à reportagem."},
-        {"date":"2024-02","date_label":"Fevereiro de 2024 · mês","type":"response","title":"Responsabilidades contestadas nas conversas","text":"A cobertura relata que um intermediário negou envolvimento em tráfico de pessoas nas mensagens.","source_name":"Agência Estado / UOL","source_url":"https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/13/mensagens-apontam-vorcaro-como-socio-de-rede-de-prostituicao-e-recrutamento-diz-portal.amp.htm","reported_at":"2026-10-13","evidence":"Declaração reportada não confirma nem afasta eventual infração."},
-        {"date":"2024-04","date_label":"Abril de 2024 · mês","type":"allegation","title":"Evento em Londres citado","text":"A reportagem descreve logística de participantes em um evento em Londres.","source_name":"Agência Estado / UOL","source_url":"https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/13/mensagens-apontam-vorcaro-como-socio-de-rede-de-prostituicao-e-recrutamento-diz-portal.amp.htm","reported_at":"2026-10-13","evidence":"Alegação jornalística; sem inferência de culpa de convidados."},
-        {"date":"2024-06","date_label":"Junho de 2024 · mês","type":"allegation","title":"Planejamento na França citado","text":"O texto descreve mensagens de preparação de uma festa na França.","source_name":"Agência Estado / UOL","source_url":"https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/13/mensagens-apontam-vorcaro-como-socio-de-rede-de-prostituicao-e-recrutamento-diz-portal.amp.htm","reported_at":"2026-10-13","evidence":"Referência atribuída à reportagem; sem divulgação de dados pessoais."},
-        {"date":"2024-10","date_label":"Outubro de 2024 · mês","type":"allegation","title":"Viagens posteriores descritas","text":"A cobertura menciona organização de grupos em Roma e deslocamentos posteriores.","source_name":"Agência Estado / UOL","source_url":"https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/13/mensagens-apontam-vorcaro-como-socio-de-rede-de-prostituicao-e-recrutamento-diz-portal.amp.htm","reported_at":"2026-10-13","evidence":"Cronologia retrospectiva, não notícia publicada naquela data."},
-        {"date":"2025","date_label":"Carnaval de 2025 · período aproximado","type":"allegation","title":"Eventos de 2025 mencionados","text":"A reportagem descreve planejamento para festas no carnaval de 2025.","source_name":"Agência Estado / UOL","source_url":"https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/13/mensagens-apontam-vorcaro-como-socio-de-rede-de-prostituicao-e-recrutamento-diz-portal.amp.htm","reported_at":"2026-10-13","evidence":"Período aproximado; dia e mês exatos não fixados nesta pesquisa."},
-        {"date":"2026-10-13","date_label":"13 out 2026 · 05h30","type":"reporting","title":"Publicação da investigação jornalística","text":"O UOL publica apuração de Natália Portinari, Cézar Feitoza e Fabio Serapião sobre mensagens, recrutamento e suspeitas envolvendo Vorcaro.","source_name":"UOL — reportagem original","source_url":"https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm","reported_at":"2026-10-13","evidence":"Publicação jornalística confirmada; não é condenação judicial."},
-        {"date":"2026-10-13","date_label":"13 out 2026 · 14h35","type":"response","title":"Cobertura registra contrapontos","text":"Segundo a Agência Estado, a defesa não se manifestou; o empresário citado na negociação contestou sua conclusão.","source_name":"Agência Estado / UOL","source_url":"https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/13/mensagens-apontam-vorcaro-como-socio-de-rede-de-prostituicao-e-recrutamento-diz-portal.amp.htm","reported_at":"2026-10-13","evidence":"Ausência de manifestação não equivale a admissão de culpa."}
+      "id": "vorcaro-uol",
+      "title": "Reportagem UOL: Daniel Vorcaro e alegações de recrutamento",
+      "video_id": "aPEp5kVjVVk",
+      "video_channel": "UOL",
+      "summary": "O UOL relata suspeitas a partir de mensagens atribuídas aos envolvidos. Vorcaro nega exploração de mulheres e contesta os materiais. Jornalismo não é fonte oficial da Justiça; investigação não equivale a condenação.",
+      "gaps": [
+        "Documentos originais da investigação da PF não foram localizados neste levantamento.",
+        "Autenticidade e contexto integral dos materiais não foram verificados independentemente pelo portal.",
+        "O texto menciona abertura de inquérito em maio; o ano não foi confirmado no trecho consultado, por isso esse ponto não recebeu uma data inventada.",
+        "A data de publicação dos vídeos não foi confirmada pelo oEmbed; a data da reportagem escrita é identificada separadamente."
+      ],
+      "events": [
+        {
+          "date": "2023-10",
+          "date_label": "Outubro de 2023 · mês",
+          "type": "allegation",
+          "title": "Ideia de agência nas mensagens reportadas",
+          "text": "A cobertura descreve proposta de usar uma agência para organizar contratações.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Atribuição jornalística; sem comprovação judicial pelo portal."
+        },
+        {
+          "date": "2023-11",
+          "date_label": "Novembro de 2023 · mês",
+          "type": "allegation",
+          "title": "Discussões sobre permanência de estrangeiras",
+          "text": "A reportagem relata conversas sobre permanência de estrangeiras e sua inclusão em uma agência.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Atribuição jornalística; sem comprovação judicial pelo portal."
+        },
+        {
+          "date": "2023-12",
+          "date_label": "Dezembro de 2023 · mês",
+          "type": "allegation",
+          "title": "Negociação de participação empresarial",
+          "text": "A cobertura descreve um contrato de participação em agência; a conclusão da negociação é contestada.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "O empresário citado contesta a conclusão da negociação."
+        },
+        {
+          "date": "2024-01",
+          "date_label": "Janeiro de 2024 · mês",
+          "type": "allegation",
+          "title": "Estrutura e recrutamento descritos",
+          "text": "O veículo relata mensagens sobre organização da agência, cadastramento e imóvel para participantes.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Atribuição jornalística; sem comprovação judicial pelo portal."
+        },
+        {
+          "date": "2024-02",
+          "date_label": "Fevereiro de 2024 · mês",
+          "type": "response",
+          "title": "Responsabilidades contestadas nas conversas",
+          "text": "A cobertura relata que um intermediário negou envolvimento em tráfico de pessoas nas mensagens.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Atribuição jornalística; sem comprovação judicial pelo portal."
+        },
+        {
+          "date": "2024-04",
+          "date_label": "Abril de 2024 · mês",
+          "type": "allegation",
+          "title": "Evento em Londres citado",
+          "text": "A reportagem descreve logística de participantes em um evento em Londres.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Atribuição jornalística; sem comprovação judicial pelo portal."
+        },
+        {
+          "date": "2024-06",
+          "date_label": "Junho de 2024 · mês",
+          "type": "allegation",
+          "title": "Planejamento na França citado",
+          "text": "O texto descreve mensagens de preparação de uma festa na França.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Atribuição jornalística; sem comprovação judicial pelo portal."
+        },
+        {
+          "date": "2024-10",
+          "date_label": "Outubro de 2024 · mês",
+          "type": "allegation",
+          "title": "Viagens posteriores descritas",
+          "text": "A cobertura menciona organização de grupos em Roma e deslocamentos posteriores.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Atribuição jornalística; sem comprovação judicial pelo portal."
+        },
+        {
+          "date": "2025",
+          "date_label": "Carnaval de 2025 · período aproximado",
+          "type": "allegation",
+          "title": "Eventos de 2025 mencionados",
+          "text": "A reportagem descreve planejamento para festas no carnaval de 2025.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Atribuição jornalística; sem comprovação judicial pelo portal."
+        },
+        {
+          "date": "2026-10-13",
+          "date_label": "13 out 2026 · 05h30",
+          "type": "reporting",
+          "title": "Publicação da investigação jornalística",
+          "text": "O UOL publica apuração de Natália Portinari, Cézar Feitoza e Fabio Serapião sobre mensagens, recrutamento e suspeitas envolvendo Vorcaro.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Atribuição jornalística; sem comprovação judicial pelo portal."
+        },
+        {
+          "date": "2026-10-13",
+          "date_label": "13 out 2026 · atualização da reportagem",
+          "type": "response",
+          "title": "Vorcaro nega acusações e contesta materiais",
+          "text": "Na resposta incluída pelo UOL, Vorcaro nega exploração de mulheres e contesta autoria, autenticidade e contexto das conversas.",
+          "source_name": "UOL — reportagem original",
+          "source_url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/13/vorcaro-era-socio-oculto-de-agencia-de-prostituicao-e-recrutou-refugiadas.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Atribuição jornalística; sem comprovação judicial pelo portal."
+        }
       ]
     }
-  ]
+  ],
+  "editorial_policy": "Notícias: UOL e Mídia NINJA. Jornalismo não equivale a documento oficial ou prova judicial."
 }
