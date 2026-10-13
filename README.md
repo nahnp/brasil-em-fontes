@@ -45,7 +45,7 @@ O GitHub Pages publica o conteúdo de `main`. O site em ChatGPT Sites exige publ
 
 ## Limites e próximos passos
 
-Esta versão inclui português, inglês e espanhol no portal e no guia de cidadania, diretório de onze links e compartilhamento. As duas cronologias em português têm vinte registros com fontes, datas, versões das partes e lacunas da pesquisa. A revisão ocorreu em 13/10/2026. Não é um inventário de todas as notícias nem um feed público atualizado automaticamente.
+Esta versão inclui português, inglês e espanhol no portal e no guia de cidadania, diretório de onze links e compartilhamento. As duas cronologias em português têm treze registros com fontes, datas, versões das partes e lacunas da pesquisa. A revisão ocorreu em 13/10/2026. Não é um inventário de todas as notícias nem um feed público atualizado automaticamente.
 
 Tor/.onion e IPFS ainda não estão publicados. Não há garantia de acesso em todos os países, continuidade de planos gratuitos ou resistência absoluta a bloqueios e ataques.
 
@@ -64,3 +64,9 @@ Validação adicional:
 node --check cidadania.js
 node --check timeline.js
 ```
+
+## Seleção editorial e podcast
+
+As notícias usam apenas UOL e Mídia NINJA. O diretório e o guia preservam canais institucionais oficiais. Reportagens e alegações não recebem selo de confirmação oficial.
+
+[Podcast técnico sobre JavaScript](https://monica.im/ai-podcast/share?id=cd5f4d52-97f2-4b0b-9d6e-f91ac7272f17): criação com Monica AI, em inglês, separada das notícias e acessível também na página de cronologias.
