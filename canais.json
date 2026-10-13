@@ -31,7 +31,8 @@
       "channel": "https://www.youtube.com/@ChavosoDaUSP",
       "status": "Metadados do YouTube consultados; conteúdo não verificado integralmente",
       "url": "https://www.youtube.com/watch?v=G0216IH7QW0",
-      "section": "Indicação da comunidade"
+      "section": "Indicação da comunidade",
+      "moderation_status": "pending_full_review"
     },
     {
       "id": "_lgn0aJWP1w",
@@ -40,7 +41,8 @@
       "channel": "https://www.youtube.com/@MidiaNINJA-p1k",
       "status": "Metadados do YouTube consultados; conteúdo não verificado integralmente",
       "url": "https://www.youtube.com/watch?v=_lgn0aJWP1w",
-      "section": "Fontes editoriais selecionadas"
+      "section": "Fontes editoriais selecionadas",
+      "moderation_status": "pending_full_review"
     },
     {
       "id": "iDoxRW_qJ5Q",
@@ -49,7 +51,8 @@
       "channel": "https://www.youtube.com/@MidiaNINJA-p1k",
       "status": "Metadados do YouTube consultados; conteúdo não verificado integralmente",
       "url": "https://www.youtube.com/watch?v=iDoxRW_qJ5Q",
-      "section": "Fontes editoriais selecionadas"
+      "section": "Fontes editoriais selecionadas",
+      "moderation_status": "pending_full_review"
     },
     {
       "id": "vs7YDnRDkwk",
@@ -58,7 +61,8 @@
       "channel": "https://www.youtube.com/@congressoemfoco",
       "status": "Metadados do YouTube consultados; conteúdo não verificado integralmente",
       "url": "https://www.youtube.com/watch?v=vs7YDnRDkwk",
-      "section": "Indicação da comunidade"
+      "section": "Indicação da comunidade",
+      "moderation_status": "pending_full_review"
     },
     {
       "id": "RpCddnc8RNo",
@@ -67,7 +71,8 @@
       "channel": "https://www.youtube.com/@canalcinegeek",
       "status": "Metadados do YouTube consultados; conteúdo não verificado integralmente",
       "url": "https://www.youtube.com/watch?v=RpCddnc8RNo",
-      "section": "Indicação da comunidade"
+      "section": "Indicação da comunidade",
+      "moderation_status": "pending_full_review"
     },
     {
       "id": "j4Y2XoS_KIY",
@@ -76,7 +81,8 @@
       "channel": "https://www.youtube.com/@revelando_br",
       "status": "Metadados do YouTube consultados; conteúdo não verificado integralmente",
       "url": "https://www.youtube.com/watch?v=j4Y2XoS_KIY",
-      "section": "Indicação da comunidade"
+      "section": "Indicação da comunidade",
+      "moderation_status": "pending_full_review"
     },
     {
       "id": "pZ1xMs4aqi0",
@@ -85,7 +91,8 @@
       "channel": "https://www.youtube.com/@MidiaNINJA-p1k",
       "status": "Metadados do YouTube consultados; conteúdo não verificado integralmente",
       "url": "https://www.youtube.com/watch?v=pZ1xMs4aqi0",
-      "section": "Fontes editoriais selecionadas"
+      "section": "Fontes editoriais selecionadas",
+      "moderation_status": "pending_full_review"
     },
     {
       "id": "kjEOr5rdmeI",
@@ -94,7 +101,8 @@
       "channel": "https://www.youtube.com/@MidiaNINJA-p1k",
       "status": "Metadados do YouTube consultados; conteúdo não verificado integralmente",
       "url": "https://www.youtube.com/watch?v=kjEOr5rdmeI",
-      "section": "Fontes editoriais selecionadas"
+      "section": "Fontes editoriais selecionadas",
+      "moderation_status": "pending_full_review"
     },
     {
       "id": "oz0-6sQtXa0",
@@ -103,7 +111,8 @@
       "channel": "https://www.youtube.com/@uol",
       "status": "Metadados do YouTube consultados; conteúdo não verificado integralmente",
       "url": "https://www.youtube.com/watch?v=oz0-6sQtXa0",
-      "section": "Fontes editoriais selecionadas"
+      "section": "Fontes editoriais selecionadas",
+      "moderation_status": "pending_full_review"
     }
   ],
   "whatsapp": [
@@ -116,5 +125,11 @@
       "url": "https://whatsapp.com/channel/0029VbCbRfD7tkj88k3soZ0Y"
     }
   ],
-  "pending_playlist": "https://www.youtube.com/playlist?list=PLf6iIWbrNhhY"
+  "pending_playlist": "https://www.youtube.com/playlist?list=PLf6iIWbrNhhY",
+  "moderation_policy": {
+    "publication": "Sugestões não são publicadas automaticamente; exigem revisão editorial e aprovação.",
+    "reject": "Promoção de ódio, discriminação, desumanização, violência, ameaças ou assédio.",
+    "context": "Distinguir promoção de citações críticas, denúncia, documentação e análise.",
+    "review_status": "Metadados consultados; revisão audiovisual integral pendente."
+  }
 }

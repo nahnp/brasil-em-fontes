@@ -43,3 +43,5 @@ assert(readFileSync('timeline.html','utf8').includes('id="podcast-tecnico"'));
 console.log('Validated editorial allowlist and separate technical podcast.');
 
 const recommendations=JSON.parse(readFileSync('canais.json','utf8'));assert.equal(recommendations.videos.length,9);assert.equal(new Set(recommendations.videos.map(v=>v.id)).size,9);for(const item of [...recommendations.channels,...recommendations.videos,...recommendations.whatsapp])assert.equal(new URL(item.url).protocol,'https:');assert(readFileSync('canais.html','utf8').includes('titularidade não confirmada'));console.log('Validated recommendations: unique videos, HTTPS and verification limits.');
+
+assert(readFileSync('canais.html','utf8').includes('template=video.yml'));assert(recommendations.videos.every(v=>v.moderation_status==='pending_full_review'));assert(recommendations.moderation_policy.publication.includes('não são publicadas automaticamente'));console.log('Validated review gate and explicit pending moderation status.');

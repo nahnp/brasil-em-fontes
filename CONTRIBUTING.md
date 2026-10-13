@@ -24,3 +24,5 @@ Administradores também ficam sujeitos às regras. O GitHub não permite aprovar
 Issues e comentários são sugestões públicas e não têm aprovação prévia nem selo de verificação. A aprovação aplica-se à integração no portal. Mudanças aprovadas em `main` chegam ao GitHub Pages; ChatGPT Sites requer publicação separada.
 
 Não publique dados pessoais, credenciais ou detalhes exploráveis de vulnerabilidades. Consulte `SECURITY.md`. Trate os participantes com respeito e leia os critérios editoriais.
+
+Para sugerir um vídeo ou comunicar conteúdo de ódio, use o formulário de vídeo com URL, contexto e marcação de tempo. Consulte a política editorial. A revisão audiovisual integral é necessária antes da aprovação; automação não garante ausência de ódio.
