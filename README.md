@@ -45,6 +45,22 @@ O GitHub Pages publica o conteúdo de `main`. O site em ChatGPT Sites exige publ
 
 ## Limites e próximos passos
 
-Atualmente: português, inglês e espanhol, diretório de oito links e compartilhamento. A revisão inicial do diretório ocorreu em 13/10/2026. Não é um feed de notícias em tempo real. Precisamos ampliar a diversidade de fontes e estabelecer revisões periódicas.
+Esta versão inclui português, inglês e espanhol no portal e no guia de cidadania, diretório de onze links e compartilhamento. As duas cronologias em português têm vinte registros com fontes, datas, versões das partes e lacunas da pesquisa. A revisão ocorreu em 13/10/2026. Não é um inventário de todas as notícias nem um feed público atualizado automaticamente.
 
 Tor/.onion e IPFS ainda não estão publicados. Não há garantia de acesso em todos os países, continuidade de planos gratuitos ou resistência absoluta a bloqueios e ataques.
+
+## Cidadania, vídeos e operação Nexus
+
+- [Guia de cidadania](cidadania.html): canais oficiais e checklist informativo, sem coleta de denúncias.
+- [Cronologias](timeline.html): Meta/TSE e reportagem UOL sobre Daniel Vorcaro, em casos separados. Vídeos só carregam após clique.
+- [Integração Voz do Voto](docs/INTEGRACAO_VOZ_DO_VOTO.md): recursos aproveitados e bloqueadores de coleta.
+- [Metodologia das cronologias](docs/METODOLOGIA_CRONOLOGIAS.md): atribuição, cobertura e datas aproximadas.
+
+A operação, os agendamentos, agentes, filas e relatórios ficam em ambiente privado. Este repositório publica somente o portal, suas fontes e orientações de contribuição.
+
+Validação adicional:
+
+```sh
+node --check cidadania.js
+node --check timeline.js
+```

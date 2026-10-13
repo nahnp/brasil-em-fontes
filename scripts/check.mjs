@@ -26,3 +26,14 @@ assert(html.includes('https://github.com/nahnp/brasil-em-fontes/issues/new/choos
 assert(html.includes('https://github.com/nahnp/brasil-em-fontes'), 'Repository link missing');
 assert(!/<script[^>]+src=["']https?:/i.test(html), 'Unexpected remote script');
 console.log(`Validated ${sources.length} sources, 3 languages, directory consistency and collaboration links. External content accuracy requires editorial review.`);
+const civicHtml=readFileSync('cidadania.html','utf8');
+const civicJs=readFileSync('cidadania.js','utf8');
+const civic=vm.runInNewContext(civicJs.slice(0,civicJs.indexOf("let language='pt'"))+';civic',{}, {timeout:1000});
+for(const key of [...civicHtml.matchAll(/data-c="([^"]+)"/g)].map(m=>m[1]))for(const lang of ['pt','en','es'])assert.equal(typeof civic[lang][key],'string',`Missing citizenship ${lang}:${key}`);
+assert(!/<form|<input|serviceWorker|supabase/i.test(civicHtml+civicJs),'Unexpected personal-data collection or private cache');
+const timelines=JSON.parse(readFileSync('timeline-data.json','utf8'));
+assert.equal(timelines.cases.length,2);
+let events=0;
+for(const item of timelines.cases){assert(/^[a-zA-Z0-9_-]{11}$/.test(item.video_id));assert(item.gaps.length>0);let previous='';for(const event of item.events){assert(/^\d{4}(-\d{2})?(-\d{2})?$/.test(event.date));assert(event.date>=previous,'Unsorted timeline');previous=event.date;assert(event.reported_at<=timelines.reviewed_at,'Source after cutoff');assert.equal(new URL(event.source_url).protocol,'https:');assert(event.evidence&&event.source_name&&event.type);events++}}
+assert(html.includes('timeline.html')&&html.includes('cidadania.html'));
+console.log(`Validated citizenship translations, no report form, ${events} dated timeline records with attribution and gaps.`);
