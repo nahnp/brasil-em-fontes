@@ -1,0 +1,10 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import {randomUUID} from 'node:crypto';
+import path from 'node:path';
+const args=process.argv.slice(2);const action=args[0];const index=args.indexOf('--state-dir');
+const automatic=new Set(['monitor_now','collect_sources','backup_now']);
+const gated=new Set(['publish','merge','send_report','enable_personal_reports']);
+if(!automatic.has(action)&&!gated.has(action))throw new Error('Unsupported action; arbitrary commands are not executed.');
+if(index<0||!args[index+1])throw new Error('Explicit --state-dir required.');
+const runtime=path.resolve(args[index+1]);const id=randomUUID();const job={id,project_id:'brasil-em-fontes',action,status:gated.has(action)?'AWAITING_APPROVAL':'QUEUED',created_at:new Date().toISOString(),requires_approval:gated.has(action)};
+await mkdir(path.join(runtime,'commands'),{recursive:true});await writeFile(path.join(runtime,'commands',id+'.json'),JSON.stringify(job,null,2),{flag:'wx'});console.log(JSON.stringify(job));

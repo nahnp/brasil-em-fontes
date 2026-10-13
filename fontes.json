@@ -74,6 +74,33 @@
       "pt": "Orientações, serviços e comunicados oficiais sobre saúde pública.",
       "en": "Official public-health guidance, services and announcements.",
       "es": "Orientaciones, servicios y comunicados oficiales de salud pública."
+    },
+    {
+      "name": "Pardal / TSE — orientações",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Agosto/pardal-recebe-mais-de-3-4-mil-denuncias-de-irregularidades-nas-eleicoes-2026",
+      "cat": "elections",
+      "owner": "TSE",
+      "pt": "Orientações oficiais sobre o aplicativo Pardal nas Eleições 2026. Confira a finalidade do canal antes de enviar informações.",
+      "en": "Official guidance on Pardal for the 2026 elections. Check the channel’s purpose before submitting information.",
+      "es": "Orientaciones oficiales sobre Pardal para las Elecciones 2026. Compruebe su finalidad antes de enviar información."
+    },
+    {
+      "name": "MPF — informar irregularidade",
+      "url": "https://www.mpf.mp.br/servicos/carta-de-servicos-ao-cidadao/servicos-ao-cidadao/representacao",
+      "cat": "institutions",
+      "owner": "Ministério Público Federal",
+      "pt": "Como informar possíveis irregularidades ao MPF, com requisitos e condições do serviço.",
+      "en": "How to report possible irregularities to MPF, including service requirements and conditions.",
+      "es": "Cómo informar posibles irregularidades al MPF, con requisitos y condiciones del servicio."
+    },
+    {
+      "name": "Fala.BR",
+      "url": "https://falabr.cgu.gov.br/",
+      "cat": "institutions",
+      "owner": "Controladoria-Geral da União",
+      "pt": "Plataforma oficial de ouvidoria e acesso à informação. Leia as regras do órgão destinatário.",
+      "en": "Official ombudsman and information-access platform. Read the receiving institution’s rules.",
+      "es": "Plataforma oficial de defensoría y acceso a información. Lea las reglas del organismo destinatario."
     }
   ]
 }

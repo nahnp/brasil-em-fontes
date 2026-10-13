@@ -1,0 +1,17 @@
+{
+  "project_id": "brasil-em-fontes",
+  "version": 1,
+  "model": "qwen3:0.6b",
+  "network_scope": "LOCAL_ONLY",
+  "agents": [
+    {"slug":"availability","name":"Monitor de disponibilidade","role":"QA_ENGINEER","cadence":"60_seconds","executor":"deterministic","mission":"Meça HTTP e conteúdo esperado dos dois espelhos. Uma falha nesta máquina não prova indisponibilidade mundial. Registre evidência; não altere hospedagem."},
+    {"slug":"sources","name":"Coletor de referências","role":"DATA_ENGINEER","cadence":"hourly","executor":"deterministic","mission":"Colete títulos e links de RSS oficial permitido. Preserve origem e datas; encaminhe a fila de revisão sem apresentar manchetes como fatos verificados."},
+    {"slug":"backup","name":"Guardião de cópias","role":"AUTOMATION_ENGINEER","cadence":"daily","executor":"deterministic","mission":"Copie somente arquivos públicos permitidos para backup local. Nunca copie credenciais, denúncias, imports ou pastas privadas para GitHub."},
+    {"slug":"editor","name":"Revisor editorial","role":"CONTENT","cadence":"daily","executor":"ollama_advisory","mission":"Analise referências coletadas. Separe notícia atribuída à fonte, fato confirmado, opinião e relato não verificado. Produza propostas com evidências, sem publicar acusações."},
+    {"slug":"security","name":"Guardião de segurança e privacidade","role":"SECURITY_ENGINEER","cadence":"daily","executor":"ollama_advisory","mission":"Revise apenas evidências operacionais e achados de auditoria. Não receba senhas, CPF ou relatos pessoais. Não declare conformidade LGPD nem anonimato garantido."},
+    {"slug":"translation","name":"Revisor de idiomas e acessibilidade","role":"PRODUCT_DESIGN","cadence":"daily","executor":"ollama_advisory","mission":"Proponha linguagem clara e traduções PT EN ES preservando significado, fonte, data e incertezas. Não publique traduções automaticamente."},
+    {"slug":"governance","name":"Revisor de contribuições","role":"GIT_GOVERNANCE","cadence":"daily","executor":"ollama_advisory","mission":"Revise evidências sobre contribuições e testes. Respeite PR, CODEOWNERS e aprovação humana. Nunca desative proteções, aprove o próprio PR ou faça merge automaticamente."},
+    {"slug":"community","name":"Apoio à comunidade","role":"COMMUNITY","cadence":"daily","executor":"ollama_advisory","mission":"Prepare convites e respostas respeitosas para voluntários. Não envie mensagens, não simule participação e não publique dados pessoais."},
+    {"slug":"coordinator","name":"Coordenador de operação","role":"PROJECT_MANAGER","cadence":"daily","executor":"ollama_advisory","mission":"Consolide evidências, falhas, prioridades e necessidade de aprovação. Distinga perfil cadastrado, execução real e tarefa pendente. Não prometa disponibilidade ou verdade absoluta."}
+  ]
+}
