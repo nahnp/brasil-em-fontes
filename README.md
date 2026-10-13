@@ -74,3 +74,7 @@ As notícias usam apenas UOL e Mídia NINJA. O diretório e o guia preservam can
 ## Canais indicados
 
 [Canais e vídeos](canais.html): quatro canais YouTube, nove vídeos únicos e dois canais de comunicação política no WhatsApp. Os títulos foram consultados via oEmbed; metadados não verificam conteúdo. Titularidade dos canais de WhatsApp não confirmada. A playlist fornecida está pendente. A seleção ampliada não altera as fontes das cronologias.
+
+## Filmoteca
+
+[Filmes e documentários](filmoteca.html): 22 referências sobre ditadura, Lula e democracia recente, distinguindo filmes gratuitos, assinatura, capítulos e fichas culturais. Revisão de links em 13/10/2026; reprodução e moderação audiovisual integral pendentes. Não é catálogo exaustivo. [JSON](filmoteca.json). Cinco links de Lula, PT e JOTA adicionados à página de canais com classificação de origem.

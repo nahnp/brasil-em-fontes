@@ -131,5 +131,32 @@
     "reject": "Promoção de ódio, discriminação, desumanização, violência, ameaças ou assédio.",
     "context": "Distinguir promoção de citações críticas, denúncia, documentação e análise.",
     "review_status": "Metadados consultados; revisão audiovisual integral pendente."
-  }
+  },
+  "political_and_news_links": [
+    {
+      "name": "Instagram de Lula",
+      "url": "https://www.instagram.com/lulaoficial/?hl=pt-br",
+      "note": "Perfil indicado; conferir identidade na plataforma. Comunicação política."
+    },
+    {
+      "name": "Facebook de Lula",
+      "url": "https://www.facebook.com/Lula/?locale=pt_BR",
+      "note": "Página indicada; conferir identidade na plataforma. Comunicação política."
+    },
+    {
+      "name": "Site de Lula",
+      "url": "https://lula.com.br/",
+      "note": "Site de comunicação política de Lula; não é portal institucional da Presidência."
+    },
+    {
+      "name": "JOTA — cobertura sobre Lula",
+      "url": "https://www.jota.info/tudo-sobre/lula",
+      "note": "Cobertura jornalística externa; algumas matérias podem exigir assinatura."
+    },
+    {
+      "name": "PT — Lula",
+      "url": "https://pt.org.br/lula/",
+      "note": "Comunicação partidária do Partido dos Trabalhadores."
+    }
+  ]
 }
