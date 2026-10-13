@@ -41,3 +41,5 @@ console.log(`Validated citizenship translations, no report form, ${events} dated
 for(const item of timelines.cases){assert(['UOL','Mídia NINJA'].includes(item.video_channel));for(const event of item.events){assert.equal(new URL(event.source_url).hostname,'noticias.uol.com.br');assert.equal(event.source_name.startsWith('UOL'),true);}}
 assert(readFileSync('timeline.html','utf8').includes('id="podcast-tecnico"'));
 console.log('Validated editorial allowlist and separate technical podcast.');
+
+const recommendations=JSON.parse(readFileSync('canais.json','utf8'));assert.equal(recommendations.videos.length,9);assert.equal(new Set(recommendations.videos.map(v=>v.id)).size,9);for(const item of [...recommendations.channels,...recommendations.videos,...recommendations.whatsapp])assert.equal(new URL(item.url).protocol,'https:');assert(readFileSync('canais.html','utf8').includes('titularidade não confirmada'));console.log('Validated recommendations: unique videos, HTTPS and verification limits.');
