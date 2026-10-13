@@ -55,14 +55,12 @@ Tor/.onion e IPFS ainda não estão publicados. Não há garantia de acesso em t
 - [Cronologias](timeline.html): Meta/TSE e reportagem UOL sobre Daniel Vorcaro, em casos separados. Vídeos só carregam após clique.
 - [Integração Voz do Voto](docs/INTEGRACAO_VOZ_DO_VOTO.md): recursos aproveitados e bloqueadores de coleta.
 - [Metodologia das cronologias](docs/METODOLOGIA_CRONOLOGIAS.md): atribuição, cobertura e datas aproximadas.
-- [Operação centralizada no Nexus](docs/OPERACAO_AUTONOMA.md): nove funções, monitor a cada 60 segundos, referências horárias, backups e propostas diárias locais.
 
-Agentes e monitor podem operar sobre os sites já publicados, mas não tornam uma mudança pública sem aprovação. O monitor é software determinístico; perfis de IA são consultivos. O computador precisa permanecer ligado e conectado. Os relatórios e a fila ficam em uma pasta operacional privada, fora deste repositório.
+A operação, os agendamentos, agentes, filas e relatórios ficam em ambiente privado. Este repositório publica somente o portal, suas fontes e orientações de contribuição.
 
 Validação adicional:
 
 ```sh
 node --check cidadania.js
 node --check timeline.js
-node --test tests/operations.test.mjs
 ```

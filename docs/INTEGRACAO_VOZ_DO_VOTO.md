@@ -11,7 +11,7 @@ O código original declara AGPL-3.0-or-later em seu README. Não foi copiado có
 - Guia público `cidadania.html` e checklist informativo sem coleta de dados.
 - Referências TSE/Pardal, MPF e Fala.BR/CGU.
 - Revisão editorial e aprovação humana para alterações públicas.
-- Perfis de agentes, monitor técnico, coleta limitada de referências RSS e propostas locais.
+- Revisão editorial com operação mantida em ambiente privado.
 
 ## Desativado nesta versão
 

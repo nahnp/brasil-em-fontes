@@ -19,4 +19,3 @@ jobs:
       - run: node scripts/check.mjs
       - run: node --check cidadania.js
       - run: node --check timeline.js
-      - run: node --test tests/operations.test.mjs
