@@ -70,3 +70,7 @@ node --check timeline.js
 As notícias usam apenas UOL e Mídia NINJA. O diretório e o guia preservam canais institucionais oficiais. Reportagens e alegações não recebem selo de confirmação oficial.
 
 [Podcast técnico sobre JavaScript](https://monica.im/ai-podcast/share?id=cd5f4d52-97f2-4b0b-9d6e-f91ac7272f17): criação com Monica AI, em inglês, separada das notícias e acessível também na página de cronologias.
+
+## Canais indicados
+
+[Canais e vídeos](canais.html): quatro canais YouTube, nove vídeos únicos e dois canais de comunicação política no WhatsApp. Os títulos foram consultados via oEmbed; metadados não verificam conteúdo. Titularidade dos canais de WhatsApp não confirmada. A playlist fornecida está pendente. A seleção ampliada não altera as fontes das cronologias.
