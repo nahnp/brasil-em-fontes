@@ -1,0 +1,45 @@
+name: Sugerir vídeo ou comunicar violação
+description: Compartilhe conhecimento com fontes ou informe conteúdo de ódio para revisão.
+title: '[Revisão de vídeo] '
+body:
+  - type: markdown
+    attributes:
+      value: 'Sugestões são públicas e não entram automaticamente no portal. Conteúdo que promove ódio, discriminação, violência, ameaças ou assédio é recusado. Não reproduza o ataque nem inclua dados privados.'
+  - type: dropdown
+    id: finalidade
+    attributes:
+      label: Finalidade
+      options:
+        - Sugerir vídeo
+        - Comunicar possível violação
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link original HTTPS do vídeo
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Conhecimento, fonte, data e contexto
+      description: Explique o valor da contribuição ou o problema identificado. Para alegações, indique evidências e contrapontos.
+    validations:
+      required: true
+  - type: textarea
+    id: trecho
+    attributes:
+      label: Marcações de tempo e contexto do trecho
+      description: Indique minutos e segundos. Se não houve revisão integral, informe isso; não declare ausência de ódio sem avaliação.
+    validations:
+      required: true
+  - type: checkboxes
+    id: regras
+    attributes:
+      label: Política editorial
+      options:
+        - label: Entendo que a sugestão exige revisão e aprovação antes de entrar no portal.
+          required: true
+        - label: Não incluí dados privados nem reproduzi ataques contra pessoas ou grupos.
+          required: true
