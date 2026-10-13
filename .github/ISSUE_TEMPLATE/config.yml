@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Segurança — comunicação privada
+    url: https://github.com/nahnp/brasil-em-fontes/security
+    about: Não publique detalhes de vulnerabilidades ou dados privados em issues.

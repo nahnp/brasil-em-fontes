@@ -1,0 +1,24 @@
+name: Sugerir fonte ou correção / Suggest source or correction
+description: Envie um link original e evidências para revisão.
+title: '[Fonte ou correção] '
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Endereço original HTTPS
+    validations:
+      required: true
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Responsável, data e evidência
+      description: Explique por que a fonte deve ser incluída ou qual correção precisa ser feita.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacidade
+    attributes:
+      label: Privacidade
+      options:
+        - label: Não incluí credenciais, dados privados ou dados pessoais de terceiros.
+          required: true

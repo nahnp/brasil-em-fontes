@@ -1,0 +1,18 @@
+name: Quero ajudar / I want to help
+description: Proponha uma contribuição de código, tradução, acessibilidade ou pesquisa.
+title: '[Colaboração] '
+body:
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Como você pode ajudar? / How can you help?
+      description: Descreva uma contribuição concreta. Não inclua dados privados.
+    validations:
+      required: true
+  - type: textarea
+    id: validacao
+    attributes:
+      label: Como verificar o resultado?
+      description: Informe evidências ou uma forma de avaliar a melhoria.
+    validations:
+      required: true
