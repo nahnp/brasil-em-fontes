@@ -1,0 +1,79 @@
+{
+  "name": "Brasil em Fontes",
+  "reviewed": "2026-10-13",
+  "scope": "Independent public-source directory; not live news.",
+  "sources": [
+    {
+      "name": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/",
+      "cat": "news",
+      "owner": "EBC",
+      "pt": "Jornalismo público: acompanhe as notícias e consulte as publicações originais.",
+      "en": "Public-service journalism: follow news and consult original reports.",
+      "es": "Periodismo público: siga las noticias y consulte las publicaciones originales."
+    },
+    {
+      "name": "Agência Brasil — English",
+      "url": "https://agenciabrasil.ebc.com.br/en",
+      "cat": "news",
+      "owner": "EBC",
+      "pt": "Notícias da Agência Brasil em inglês para leitores internacionais.",
+      "en": "Agência Brasil news in English for international readers.",
+      "es": "Noticias de Agência Brasil en inglés para lectores internacionales."
+    },
+    {
+      "name": "Agência Brasil — Español",
+      "url": "https://agenciabrasil.ebc.com.br/es",
+      "cat": "news",
+      "owner": "EBC",
+      "pt": "Notícias da Agência Brasil em espanhol.",
+      "en": "Agência Brasil news in Spanish.",
+      "es": "Noticias de Agência Brasil en español."
+    },
+    {
+      "name": "Câmara dos Deputados",
+      "url": "https://www.camara.leg.br/",
+      "cat": "institutions",
+      "owner": "Câmara dos Deputados",
+      "pt": "Propostas legislativas, atividade parlamentar e acesso aos canais da Câmara.",
+      "en": "Legislative proposals, parliamentary activity and Chamber channels.",
+      "es": "Propuestas legislativas, actividad parlamentaria y canales de la Cámara."
+    },
+    {
+      "name": "Senado Notícias",
+      "url": "https://www12.senado.leg.br/noticias",
+      "cat": "institutions",
+      "owner": "Senado Federal",
+      "pt": "Acompanhe a cobertura institucional dos trabalhos do Senado.",
+      "en": "Follow institutional coverage of the Federal Senate.",
+      "es": "Siga la cobertura institucional de los trabajos del Senado."
+    },
+    {
+      "name": "Tribunal Superior Eleitoral",
+      "url": "https://www.tse.jus.br/",
+      "cat": "elections",
+      "owner": "TSE",
+      "pt": "Informações eleitorais, serviços e comunicados da Justiça Eleitoral.",
+      "en": "Election information, services and electoral authority announcements.",
+      "es": "Información electoral, servicios y comunicados de la autoridad electoral."
+    },
+    {
+      "name": "Portal da Transparência",
+      "url": "https://portaldatransparencia.gov.br/",
+      "cat": "data",
+      "owner": "Controladoria-Geral da União",
+      "pt": "Consulte dados de gastos e recursos públicos do Governo Federal.",
+      "en": "Consult federal government public spending and resource data.",
+      "es": "Consulte datos de gastos y recursos públicos del Gobierno Federal."
+    },
+    {
+      "name": "Ministério da Saúde",
+      "url": "https://www.gov.br/saude/pt-br",
+      "cat": "health",
+      "owner": "Ministério da Saúde",
+      "pt": "Orientações, serviços e comunicados oficiais sobre saúde pública.",
+      "en": "Official public-health guidance, services and announcements.",
+      "es": "Orientaciones, servicios y comunicados oficiales de salud pública."
+    }
+  ]
+}
