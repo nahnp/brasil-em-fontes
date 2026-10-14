@@ -84,3 +84,13 @@ As notícias usam apenas UOL e Mídia NINJA. O diretório e o guia preservam can
 Manifest e ícones para instalação, cache offline limitado às páginas públicas e vídeos incorporados sob clique. Instalação depende do navegador; vídeos externos exigem internet. Títulos, descrições, canonical, Open Graph, dados estruturados e sitemap preparados para rastreamento sem promessa de ranking.
 
 [Monitoramento público](monitoramento.html): GitHub Actions verifica as duas hospedagens a cada 15 minutos, sujeito ao agendador. Dashboard apresenta amostra das últimas execuções e inventário. Acessos e encaminhamentos globais não estão disponíveis sem analytics configurado. Contadores locais são opcionais, só deste navegador e não enviados a servidores. Nenhum dado privado do Nexus é publicado.
+
+## Cinco endereços de acesso
+
+- [Site 1 — ChatGPT Sites](https://brasil-em-fontes.vocalmoose64.chatgpt.site)
+- [Site 2 — GitHub Pages](https://nahnp.github.io/brasil-em-fontes)
+- [Site 3 — ChatGPT Sites](https://brasil-em-fontes-acesso-3.vocalmoose64.chatgpt.site)
+- [Site 4 — ChatGPT Sites](https://brasil-em-fontes-acesso-4.vocalmoose64.chatgpt.site)
+- [Site 5 — ChatGPT Sites](https://brasil-em-fontes-acesso-5.vocalmoose64.chatgpt.site)
+
+As quatro cópias ChatGPT Sites compartilham o provedor; GitHub Pages é a alternativa de outro provedor. Não há garantia de continuidade absoluta. O monitor verifica os cinco endereços. Publicações Sites exigem atualização de cada cópia; novos links não representam sincronização automática das versões.

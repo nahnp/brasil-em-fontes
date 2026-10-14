@@ -1,5 +1,5 @@
-const CACHE='brasil-fontes-public-v1';
-const ASSETS=['./','index.html','cidadania.html','timeline.html','canais.html','filmoteca.html','destaques.html','materia-borelli.html','monitoramento.html','offline.html','style.css','app.js','cidadania.js','timeline.js','pwa.js','monitoramento.js','fontes.json','timeline-data.json','canais.json','filmoteca.json','manifest.webmanifest','icon-192.png','icon-512.png'];
+const CACHE='brasil-fontes-public-v2';
+const ASSETS=['./','index.html','cidadania.html','timeline.html','canais.html','filmoteca.html','destaques.html','materia-borelli.html','monitoramento.html','offline.html','style.css','app.js','cidadania.js','timeline.js','pwa.js','monitoramento.js','fontes.json','timeline-data.json','canais.json','filmoteca.json','acessos.json','manifest.webmanifest','icon-192.png','icon-512.png'];
 const ROOT=new URL('./',self.location.href);const allowed=new Set(ASSETS.map(p=>new URL(p,ROOT).pathname));
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS.map(p=>new URL(p,ROOT).href)))));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('brasil-fontes-public-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
