@@ -17,7 +17,6 @@ for p in r.glob('*.html'):
  if 'class="site-menu"' in text and 'href="tendencias.html"' not in text:
   text=text.replace('<a href="monitoramento.html">','<a href="tendencias.html">SEO e tendências</a><a href="monitoramento.html">',1)
  p.write_text(text,encoding='utf-8')
-p=r/'sw.js';text=p.read_text(encoding='utf-8').replace('public-v2','public-v3').replace("'offline.html',","'tendencias.html','tendencias.js','offline.html',");p.write_text(text,encoding='utf-8')
 p=r/'sitemap.xml';text=p.read_text(encoding='utf-8');url='https://brasil-em-fontes.vocalmoose64.chatgpt.site/tendencias.html'
 if url not in text:text=text.replace('</urlset>',f'<url><loc>{url}</loc><lastmod>2026-10-14</lastmod></url></urlset>')
 p.write_text(text,encoding='utf-8')
