@@ -1,0 +1,27 @@
+const loadTikTok = document.querySelector('#load-tiktok');
+if (loadTikTok) loadTikTok.addEventListener('click', () => {
+  const box = document.querySelector('#tiktok-container');
+  const status = document.querySelector('#tiktok-status');
+  const quote = document.createElement('blockquote');
+  quote.className = 'tiktok-embed';
+  quote.cite = 'https://www.tiktok.com/@lulaoficial/video/7692593285017226516';
+  quote.dataset.videoId = '7692593285017226516';
+  quote.style.cssText = 'max-width:605px;min-width:0;width:100%;margin:0 auto';
+  const section = document.createElement('section');
+  const link = document.createElement('a');
+  link.href = quote.cite;
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+  link.textContent = '@lulaoficial — assistir ao vídeo';
+  section.append(link);
+  quote.append(section);
+  box.replaceChildren(quote);
+  box.style.cssText = 'max-width:100%;overflow:auto';
+  status.textContent = 'Carregando conteúdo externo. Se o vídeo não aparecer, use o link original abaixo.';
+  const script = document.createElement('script');
+  script.src = 'https://www.tiktok.com/embed.js';
+  script.async = true;
+  script.onerror = () => { status.textContent = 'O TikTok não pôde ser carregado. Use o link para assistir na plataforma.'; };
+  script.onload = () => { status.textContent = 'Disponibilidade e reprodução dependem do TikTok. O link original permanece disponível.'; };
+  document.body.append(script);
+}, { once: true });
