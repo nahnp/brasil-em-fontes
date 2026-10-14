@@ -21,6 +21,66 @@
       "name": "Meteoro Brasil",
       "url": "https://www.youtube.com/@MeteoroBrasil",
       "note": "Canal indicado pela responsável; titularidade não confirmada nesta revisão."
+    },
+    {
+      "name": "Carol Brócoli",
+      "url": "https://www.youtube.com/@CarolBrocoli",
+      "note": "Conteúdo autoral; identidade e catálogo integral não revisados.",
+      "moderation_status": "channel_not_fully_reviewed"
+    },
+    {
+      "name": "Spotniks",
+      "url": "https://www.youtube.com/@spotniks",
+      "note": "Canal indicado pela responsável; distinguir opinião e informação.",
+      "moderation_status": "channel_not_fully_reviewed"
+    },
+    {
+      "name": "Renato Freitas",
+      "url": "https://www.youtube.com/@RenatoFreitasumdenos",
+      "note": "Comunicação política pessoal; identidade não confirmada nesta revisão.",
+      "moderation_status": "channel_not_fully_reviewed"
+    },
+    {
+      "name": "PCdoB",
+      "url": "https://www.youtube.com/@PCdoBOficial",
+      "note": "Comunicação partidária; nome do perfil não substitui confirmação de titularidade.",
+      "moderation_status": "channel_not_fully_reviewed"
+    },
+    {
+      "name": "Lula",
+      "url": "https://www.youtube.com/@LulaOficial",
+      "note": "Comunicação política; conferir titularidade na plataforma.",
+      "moderation_status": "channel_not_fully_reviewed"
+    },
+    {
+      "name": "Canadá Diário",
+      "url": "https://www.youtube.com/@CanadaDiario",
+      "note": "Conteúdo autoral indicado; identidade e catálogo integral não revisados.",
+      "moderation_status": "channel_not_fully_reviewed"
+    },
+    {
+      "name": "Poder360",
+      "url": "https://www.youtube.com/@Poder360",
+      "note": "Canal jornalístico indicado; conferir fonte, data e contexto de cada publicação.",
+      "moderation_status": "channel_not_fully_reviewed"
+    },
+    {
+      "name": "PT Brasil",
+      "url": "https://www.youtube.com/@ptbrasil",
+      "note": "Comunicação partidária; conferir titularidade na plataforma.",
+      "moderation_status": "channel_not_fully_reviewed"
+    },
+    {
+      "name": "Samuel Borelli",
+      "url": "https://www.youtube.com/@SamuelBorelli",
+      "note": "Comentário político autoral; metadados do vídeo fornecido identificam este canal.",
+      "moderation_status": "channel_not_fully_reviewed"
+    },
+    {
+      "name": "André Janones",
+      "url": "https://www.youtube.com/@Andr%C3%A9JanonesMG",
+      "note": "Comunicação política pessoal; metadados da live fornecida identificam este canal.",
+      "moderation_status": "channel_not_fully_reviewed"
     }
   ],
   "videos": [
@@ -157,6 +217,22 @@
       "name": "PT — Lula",
       "url": "https://pt.org.br/lula/",
       "note": "Comunicação partidária do Partido dos Trabalhadores."
+    }
+  ],
+  "featured": [
+    {
+      "id": "LGKTVUpijlM",
+      "author": "Mídia NINJA",
+      "title": "Nunes Marques censurou jornal sindical e canal de Janones e foi chamado de office-boy de Flávio",
+      "url": "https://www.youtube.com/watch?v=LGKTVUpijlM&t=336s",
+      "status": "Título do produtor, não conclusão do portal; revisão integral pendente."
+    },
+    {
+      "id": "FtkFugq3f_E",
+      "author": "André Janones",
+      "title": "EXÉRCITO DO LULA AO VIVO",
+      "url": "https://www.youtube.com/watch?v=FtkFugq3f_E",
+      "status": "Resumo fornecido pela comunidade; conteúdo integral não conferido."
     }
   ]
 }
