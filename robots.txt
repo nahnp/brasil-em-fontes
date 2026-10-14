@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brasil-em-fontes.vocalmoose64.chatgpt.site/sitemap.xml

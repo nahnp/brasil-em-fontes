@@ -78,3 +78,9 @@ As notícias usam apenas UOL e Mídia NINJA. O diretório e o guia preservam can
 ## Filmoteca
 
 [Filmes e documentários](filmoteca.html): 22 referências sobre ditadura, Lula e democracia recente, distinguindo filmes gratuitos, assinatura, capítulos e fichas culturais. Revisão de links em 13/10/2026; reprodução e moderação audiovisual integral pendentes. Não é catálogo exaustivo. [JSON](filmoteca.json). Cinco links de Lula, PT e JOTA adicionados à página de canais com classificação de origem.
+
+## PWA, SEO e monitoramento
+
+Manifest e ícones para instalação, cache offline limitado às páginas públicas e vídeos incorporados sob clique. Instalação depende do navegador; vídeos externos exigem internet. Títulos, descrições, canonical, Open Graph, dados estruturados e sitemap preparados para rastreamento sem promessa de ranking.
+
+[Monitoramento público](monitoramento.html): GitHub Actions verifica as duas hospedagens a cada 15 minutos, sujeito ao agendador. Dashboard apresenta amostra das últimas execuções e inventário. Acessos e encaminhamentos globais não estão disponíveis sem analytics configurado. Contadores locais são opcionais, só deste navegador e não enviados a servidores. Nenhum dado privado do Nexus é publicado.

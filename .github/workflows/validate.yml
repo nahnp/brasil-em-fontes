@@ -19,3 +19,5 @@ jobs:
       - run: node scripts/check.mjs
       - run: node --check cidadania.js
       - run: node --check timeline.js
+      - run: node scripts/pwa-test.mjs
+      - run: node --check sw.js && node --check pwa.js && node --check monitoramento.js
