@@ -1,0 +1,31 @@
+{
+  "mirrors": [
+    {
+      "name": "Site 1",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site",
+      "provider": "ChatGPT Sites"
+    },
+    {
+      "name": "Site 2",
+      "url": "https://nahnp.github.io/brasil-em-fontes",
+      "provider": "GitHub Pages"
+    },
+    {
+      "name": "Site 3",
+      "url": "https://brasil-em-fontes-acesso-3.vocalmoose64.chatgpt.site",
+      "provider": "ChatGPT Sites"
+    },
+    {
+      "name": "Site 4",
+      "url": "https://brasil-em-fontes-acesso-4.vocalmoose64.chatgpt.site",
+      "provider": "ChatGPT Sites"
+    },
+    {
+      "name": "Site 5",
+      "url": "https://brasil-em-fontes-acesso-5.vocalmoose64.chatgpt.site",
+      "provider": "ChatGPT Sites"
+    }
+  ],
+  "reviewed_at": "2026-10-13",
+  "warning": "Cinco endereços em dois provedores; cópias no mesmo provedor compartilham riscos. Não há garantia de disponibilidade absoluta."
+}
