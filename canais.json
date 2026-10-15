@@ -1,5 +1,5 @@
 {
-  "reviewed_at": "2026-10-13",
+  "reviewed_at": "2026-10-15",
   "policy": "Indicações da responsável, sem selo universal de confiabilidade. Metadados não confirmam alegações.",
   "channels": [
     {
@@ -173,6 +173,17 @@
       "url": "https://www.youtube.com/watch?v=oz0-6sQtXa0",
       "section": "Fontes editoriais selecionadas",
       "moderation_status": "pending_full_review"
+    },
+    {
+      "id": "OhF5qTXEyDA",
+      "title": "Esclarecimento sobre responsabilidade de Bolsonaro pelas mortes na pandemia — título do produtor",
+      "original_title": "🚨Esclarecimento importante sobre a responsabilidade de Bolsonaro pelas 700 mil mortes na pandemia🚨",
+      "author": "Mídia NINJA",
+      "channel": "https://www.youtube.com/@MidiaNINJA-p1k",
+      "url": "https://www.youtube.com/shorts/OhF5qTXEyDA",
+      "section": "Fonte editorial selecionada",
+      "status": "Metadados consultados em 15/10/2026; afirmações e contexto não verificados integralmente.",
+      "moderation_status": "pending_full_review"
     }
   ],
   "whatsapp": [
@@ -233,6 +244,25 @@
       "title": "EXÉRCITO DO LULA AO VIVO",
       "url": "https://www.youtube.com/watch?v=FtkFugq3f_E",
       "status": "Resumo fornecido pela comunidade; conteúdo integral não conferido."
+    }
+  ],
+  "pending_references": [
+    {
+      "url": "https://www.youtube.com/live/7j_p4XqF2BQ",
+      "status": "Metadados YouTube indisponíveis (404 em 15/10/2026). Não promovida como transmissão acessível."
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLf6iIWbrNhhY",
+      "status": "Endereço fornecido permanece pendente de identificação e confirmação."
+    }
+  ],
+  "highlighted_resources": [
+    {
+      "name": "Acervo Lula — Data2Comms",
+      "url": "https://data2comms.com.br/links-lula/",
+      "category": "Comunicação política / acervo de links",
+      "checked_at": "2026-10-15",
+      "status": "Página acessível; autoria dos itens, atualizações e conteúdo integral não certificados pelo portal."
     }
   ]
 }

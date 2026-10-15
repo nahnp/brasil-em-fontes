@@ -21,3 +21,4 @@ jobs:
       - run: node --check timeline.js
       - run: node scripts/pwa-test.mjs
       - run: node --check sw.js && node --check pwa.js && node --check monitoramento.js
+      - run: node scripts/links-test.mjs
