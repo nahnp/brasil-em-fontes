@@ -25,3 +25,5 @@ Não representa o governo. Referências externas não são aprovação de todo o
 - [Índice JSON](https://brasil-em-fontes.vocalmoose64.chatgpt.site/portal.json)
 - [Diretório de fontes](https://brasil-em-fontes.vocalmoose64.chatgpt.site/fontes.json)
 - [Política editorial](https://brasil-em-fontes.vocalmoose64.chatgpt.site/sobre)
+
+- [Meta e conteúdos sobre Lula](https://brasil-em-fontes.vocalmoose64.chatgpt.site/meta-e-lula): Levantamento público com alegações, contrapontos e limitações; não é auditoria interna de entrega.

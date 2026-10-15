@@ -189,11 +189,27 @@
   "whatsapp": [
     {
       "name": "Canal do Lula",
-      "url": "https://whatsapp.com/channel/0029VaDH1GU7DAWpJTrCXH39"
+      "url": "https://whatsapp.com/channel/0029VaDH1GU7DAWpJTrCXH39",
+      "note": "Canal de comunicação política apresentado em nome de Luiz Inácio Lula da Silva.",
+      "metadata_checked_at": "2026-10-15",
+      "ownership": "Não confirmada independentemente",
+      "status": "Link público consultado; não confirma entrega, moderação ou funcionamento integral."
+    },
+    {
+      "name": "Tropa da Erika Hilton com Lula",
+      "url": "https://whatsapp.com/channel/0029VaZFDSo8qJ01Vr2NNr1e",
+      "note": "Canal apresentado em nome de Erika Hilton. Este é o nome exibido na consulta pública.",
+      "metadata_checked_at": "2026-10-15",
+      "ownership": "Não confirmada independentemente",
+      "status": "Link público consultado; não confirma entrega, moderação ou funcionamento integral."
     },
     {
       "name": "EXÉRCITO DO LULA",
-      "url": "https://whatsapp.com/channel/0029VbCbRfD7tkj88k3soZ0Y"
+      "url": "https://whatsapp.com/channel/0029VbCbRfD7tkj88k3soZ0Y",
+      "note": "Canal associado a André Janones na cobertura consultada. Seu funcionamento foi objeto de decisões eleitorais.",
+      "metadata_checked_at": "2026-10-15",
+      "ownership": "Não confirmada independentemente",
+      "status": "Link público consultado; não confirma entrega, moderação ou funcionamento integral."
     }
   ],
   "pending_playlist": "https://www.youtube.com/playlist?list=PLf6iIWbrNhhY",
@@ -264,5 +280,11 @@
       "checked_at": "2026-10-15",
       "status": "Página acessível; autoria dos itens, atualizações e conteúdo integral não certificados pelo portal."
     }
-  ]
+  ],
+  "whatsapp_group": {
+    "name": "Grupo do PT — convite indicado",
+    "url": "https://chat.whatsapp.com/I5d5Jbz7Fyo2CC3odiOB98",
+    "status": "Página de convite respondeu; grupo, validade e administradores não confirmados.",
+    "privacy": "Participantes podem ver seu número de telefone."
+  }
 }

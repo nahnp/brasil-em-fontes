@@ -1,0 +1,269 @@
+{
+  "reviewed_at": "2026-10-15",
+  "scope": "Levantamento público de referências, sete URLs informadas e o inventário de 14 canais cadastrados. Não é varredura integral dos sistemas internos da Meta ou de todas as redes sociais.",
+  "limitations": [
+    "Sem acesso a Insights, Status da conta, Business Support ou logs internos.",
+    "Não foi feita autenticação, ingresso em grupos, envio de mensagens ou varredura de membros.",
+    "HTTP 200 e metadados não medem alcance nem comprovam titularidade.",
+    "Ausência de evidência pública localizada não demonstra ausência de restrição."
+  ],
+  "profiles": [
+    {
+      "name": "Instagram de Lula",
+      "url": "https://www.instagram.com/lulaoficial/",
+      "platform": "Instagram",
+      "http_status": 200,
+      "page_title": "Luiz Inácio Lula da Silva (&#064;lulaoficial) • Instagram photos and videos",
+      "observation": "Resposta pública; não mede entrega, propriedade da conta, integridade do conteúdo ou ingresso no grupo.",
+      "distribution_status": "Não auditável sem métricas e registros da plataforma."
+    },
+    {
+      "name": "Facebook de Lula",
+      "url": "https://www.facebook.com/Lula/",
+      "platform": "Facebook",
+      "http_status": 200,
+      "page_title": "Lula",
+      "observation": "Resposta pública; não mede entrega, propriedade da conta, integridade do conteúdo ou ingresso no grupo.",
+      "distribution_status": "Não auditável sem métricas e registros da plataforma."
+    },
+    {
+      "name": "Canal do Lula",
+      "url": "https://whatsapp.com/channel/0029VaDH1GU7DAWpJTrCXH39",
+      "platform": "WhatsApp",
+      "http_status": 200,
+      "page_title": "Canal do Lula - WhatsApp channel",
+      "observation": "Resposta pública; não mede entrega, propriedade da conta, integridade do conteúdo ou ingresso no grupo.",
+      "distribution_status": "Não auditável sem métricas e registros da plataforma."
+    },
+    {
+      "name": "Tropa da Erika Hilton com Lula",
+      "url": "https://whatsapp.com/channel/0029VaZFDSo8qJ01Vr2NNr1e",
+      "platform": "WhatsApp",
+      "http_status": 200,
+      "page_title": "Tropa da Erika Hilton com Lula 🌟 - WhatsApp channel",
+      "observation": "Resposta pública; não mede entrega, propriedade da conta, integridade do conteúdo ou ingresso no grupo.",
+      "distribution_status": "Não auditável sem métricas e registros da plataforma."
+    },
+    {
+      "name": "EXÉRCITO DO LULA",
+      "url": "https://whatsapp.com/channel/0029VbCbRfD7tkj88k3soZ0Y",
+      "platform": "WhatsApp",
+      "http_status": 200,
+      "page_title": "EXÉRCITO DO LULA - WhatsApp channel",
+      "observation": "Resposta pública; não mede entrega, propriedade da conta, integridade do conteúdo ou ingresso no grupo.",
+      "distribution_status": "Não auditável sem métricas e registros da plataforma."
+    },
+    {
+      "name": "Grupo do PT — convite indicado",
+      "url": "https://chat.whatsapp.com/I5d5Jbz7Fyo2CC3odiOB98",
+      "platform": "WhatsApp",
+      "http_status": 200,
+      "page_title": "WhatsApp Group Invite",
+      "observation": "Resposta pública; não mede entrega, propriedade da conta, integridade do conteúdo ou ingresso no grupo.",
+      "distribution_status": "Não auditável sem métricas e registros da plataforma."
+    },
+    {
+      "name": "Redes do PT — agregador informado",
+      "url": "https://linktr.ee/ptbrasil",
+      "platform": "Linktree",
+      "http_status": 200,
+      "page_title": "ptbrasil Official: TikTok, Instagram, X, Facebook, Twitter | Linktree",
+      "observation": "Resposta pública; não mede entrega, propriedade da conta, integridade do conteúdo ou ingresso no grupo.",
+      "distribution_status": "Não auditável sem métricas e registros da plataforma."
+    }
+  ],
+  "findings": [
+    {
+      "channel": "Instagram de Lula e publicidade da campanha",
+      "classification": "Alegação em disputa; contraponto publicado",
+      "summary": "Campanha apontou restrições. A Meta atribuiu o travamento de contagens de 7/10 a falha global e negou impacto na distribuição e favorecimento. O portal não auditou os registros internos.",
+      "sources": [
+        "ebc-meta",
+        "uol-meta"
+      ]
+    },
+    {
+      "channel": "Facebook e anúncios da campanha",
+      "classification": "Alegações de distribuição e publicidade",
+      "summary": "A cobertura trata de queixas envolvendo plataformas e sistemas publicitários. Não foi obtido painel autenticado que confirme o estado atual de cada conta ou anúncio.",
+      "sources": [
+        "ebc-meta",
+        "uol-meta"
+      ]
+    },
+    {
+      "channel": "Meta AI em Facebook, Instagram e WhatsApp",
+      "classification": "Nova alegação da campanha",
+      "summary": "A reportagem de 14/10 relata reclamação ao TSE sobre respostas e geração de imagens. Não é decisão final nem auditoria independente do modelo.",
+      "sources": [
+        "ebc-ia"
+      ]
+    },
+    {
+      "channel": "EXÉRCITO DO LULA no WhatsApp",
+      "classification": "Medidas judiciais reportadas",
+      "summary": "A cobertura registra suspensão e autorização de retorno condicionada a intervalo de 48 horas após comunicação nos autos. Não é prova de redução algorítmica por iniciativa da Meta.",
+      "sources": [
+        "tse-aije",
+        "ebc-tecnicos",
+        "ebc-reativacao"
+      ]
+    },
+    {
+      "channel": "Tropa da Erika Hilton com Lula",
+      "classification": "Relato atribuído; causa técnica não comprovada",
+      "summary": "Poder360 relata acusação de sabotagem feita pela parlamentar. Os metadados do canal foram acessíveis, mas não revelam entrega das mensagens nem comprovam a alegação.",
+      "sources": [
+        "poder-erika"
+      ]
+    },
+    {
+      "channel": "Canal do Lula e convite de grupo do PT",
+      "classification": "Entrega não auditável pela página pública",
+      "summary": "As páginas externas responderam à consulta. Isso não comprova ausência ou presença de restrição, nem valida os administradores de um grupo.",
+      "sources": []
+    }
+  ],
+  "registered_channels": [
+    {
+      "name": "UOL",
+      "url": "https://www.youtube.com/@uol",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "Mídia NINJA",
+      "url": "https://www.youtube.com/@MidiaNINJA-p1k",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "Estúdio Fluxo",
+      "url": "https://www.youtube.com/@estudiofluxo",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "Meteoro Brasil",
+      "url": "https://www.youtube.com/@MeteoroBrasil",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "Carol Brócoli",
+      "url": "https://www.youtube.com/@CarolBrocoli",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "Spotniks",
+      "url": "https://www.youtube.com/@spotniks",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "Renato Freitas",
+      "url": "https://www.youtube.com/@RenatoFreitasumdenos",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "PCdoB",
+      "url": "https://www.youtube.com/@PCdoBOficial",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "Lula",
+      "url": "https://www.youtube.com/@LulaOficial",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "Canadá Diário",
+      "url": "https://www.youtube.com/@CanadaDiario",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "Poder360",
+      "url": "https://www.youtube.com/@Poder360",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "PT Brasil",
+      "url": "https://www.youtube.com/@ptbrasil",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "Samuel Borelli",
+      "url": "https://www.youtube.com/@SamuelBorelli",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    },
+    {
+      "name": "André Janones",
+      "url": "https://www.youtube.com/@Andr%C3%A9JanonesMG",
+      "registered_platform": "YouTube (Google)",
+      "conclusion": "O link cadastrado não é da Meta. Não permite inferir restrições em eventuais perfis do mesmo produtor no Instagram ou Facebook."
+    }
+  ],
+  "sources": [
+    {
+      "id": "tse-aije",
+      "name": "TSE — esclarecimentos na AIJE, 10/10/2026",
+      "type": "Fonte institucional judicial",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/tse-determina-esclarecimentos-antes-de-analisar-pedidos-de-flavio-contra-lula-e-janones"
+    },
+    {
+      "id": "ebc-meta",
+      "name": "Agência Brasil — pedido de esclarecimentos à Meta, 11/10/2026",
+      "type": "Reportagem de veículo público; não é o inteiro teor da decisão",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-manda-meta-esclarecer-restricoes-postagens-da-campanha-de-lula"
+    },
+    {
+      "id": "uol-meta",
+      "name": "UOL — versão da Meta e falha de contagem, 13/10/2026",
+      "type": "Reportagem com manifestação atribuída à empresa",
+      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/13/meta-nega-favorecer-candidatos-apos-cobranca-do-tse.amp.htm"
+    },
+    {
+      "id": "ebc-ia",
+      "name": "Agência Brasil — nova reclamação envolvendo Meta AI, 14/10/2026",
+      "type": "Reportagem sobre alegações da campanha",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/campanha-de-lula-vai-ao-tse-apos-ia-da-meta-restringir-buscas"
+    },
+    {
+      "id": "ebc-tecnicos",
+      "name": "Agência Brasil — análise técnica sobre o canal, 12/10/2026",
+      "type": "Reportagem sobre relatório técnico",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tecnicos-do-tse-nao-encontram-conteudo-falso-no-canal-exercito-do-lula"
+    },
+    {
+      "id": "ebc-reativacao",
+      "name": "Agência Brasil — suspensão e reativação condicionada, 13/10/2026",
+      "type": "Reportagem sobre medidas judiciais",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-kassio-autoriza-reativacao-do-canal-exercito-do-lula"
+    },
+    {
+      "id": "poder-erika",
+      "name": "Poder360 — relato de Erika Hilton, 14/10/2026",
+      "type": "Reportagem com alegação atribuída à parlamentar",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/erika-hilton-cria-tropa-da-erika-para-mobilizar-apoiadores/"
+    },
+    {
+      "id": "meta-politica",
+      "name": "Meta — abordagem de conteúdo político anunciada em 2025",
+      "type": "Posição institucional da própria empresa",
+      "url": "https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/"
+    },
+    {
+      "id": "meta-eleicoes",
+      "name": "Meta — medidas para as eleições brasileiras de 2026",
+      "type": "Posição institucional da própria empresa",
+      "url": "https://about.fb.com/br/news/2026/06/nosso-trabalho-para-as-eleicoes-de-2026-no-brasil/"
+    }
+  ]
+}
