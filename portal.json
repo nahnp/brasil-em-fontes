@@ -96,6 +96,13 @@
       "path": "timeline.html",
       "description": "Cronologias Meta e TSE e reportagem UOL sobre Daniel Vorcaro, com datas, fontes, contrapontos e limites de evidência.",
       "language": "pt-BR"
+    },
+    {
+      "title": "Meta e conteúdos sobre Lula: o que está documentado.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/meta-e-lula",
+      "path": "meta-e-lula.html",
+      "description": "Fontes, contrapontos e limites de verificação sobre as plataformas Meta e canais de WhatsApp.",
+      "language": "pt-BR"
     }
   ]
 }

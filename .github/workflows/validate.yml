@@ -23,3 +23,4 @@ jobs:
       - run: node --check sw.js && node --check pwa.js && node --check monitoramento.js
       - run: node scripts/links-test.mjs
       - run: node scripts/seo-test.mjs
+      - run: node scripts/meta-test.mjs

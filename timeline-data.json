@@ -1,5 +1,5 @@
 {
-  "reviewed_at": "2026-10-13",
+  "reviewed_at": "2026-10-15",
   "coverage": "Cronologia de referências localizadas e consultadas; não representa todas as notícias existentes.",
   "cases": [
     {
@@ -7,7 +7,7 @@
       "title": "Meta e TSE: métricas das campanhas de Lula e Flávio",
       "video_id": "pZ1xMs4aqi0",
       "video_channel": "Mídia NINJA",
-      "summary": "A campanha apresentou alegações sobre restrições nas plataformas. O UOL relata pedido de esclarecimentos do TSE. A cronologia identifica a cobertura consultada; solicitar informações não comprova interferência.",
+      "summary": "A campanha apresentou alegações sobre restrições. A Meta negou favorecimento em resposta reportada pelo UOL em 13/10. A cronologia distingue as versões: pedido de esclarecimentos e falha de contagem não demonstram, por si, manipulação seletiva.",
       "gaps": [
         "Inteiro teor e número do processo ainda não localizados nesta pesquisa.",
         "Não foi localizada decisão final de mérito neste levantamento.",
@@ -36,6 +36,17 @@
           "source_url": "https://noticias.uol.com.br/eleicoes/2026/10/11/decisoes-de-tse-sao-mais-rapidas-para-flavio-pedidos-de-lula-sao-travados.htm",
           "reported_at": "2026-10-11",
           "evidence": "Data da cobertura, não confirmação da data do despacho. Não comprova interferência eleitoral."
+        },
+        {
+          "date": "2026-10-13",
+          "date_label": "13 out 2026 · publicação da reportagem",
+          "type": "response",
+          "title": "Meta nega favorecimento e descreve falha de contagem",
+          "text": "O UOL relata que a empresa atribuiu a contagem travada de 7/10 a falha global e negou redução da distribuição ou favorecimento. É a versão da empresa, sem auditoria independente do portal.",
+          "source_name": "UOL — manifestação da Meta reportada",
+          "source_url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/13/meta-nega-favorecer-candidatos-apos-cobranca-do-tse.amp.htm",
+          "reported_at": "2026-10-13",
+          "evidence": "Contraponto da empresa. Não constitui decisão judicial final ou verificação dos registros internos."
         }
       ]
     },
