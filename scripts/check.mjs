@@ -42,7 +42,7 @@ for(const item of timelines.cases){assert(['UOL','Mídia NINJA'].includes(item.v
 assert(readFileSync('timeline.html','utf8').includes('id="podcast-tecnico"'));
 console.log('Validated editorial allowlist and separate technical podcast.');
 
-const recommendations=JSON.parse(readFileSync('canais.json','utf8'));assert.equal(recommendations.videos.length,9);assert.equal(new Set(recommendations.videos.map(v=>v.id)).size,9);for(const item of [...recommendations.channels,...recommendations.videos,...recommendations.whatsapp])assert.equal(new URL(item.url).protocol,'https:');assert(readFileSync('canais.html','utf8').includes('titularidade não confirmada'));console.log('Validated recommendations: unique videos, HTTPS and verification limits.');
+const recommendations=JSON.parse(readFileSync('canais.json','utf8'));assert.equal(recommendations.videos.length,10);assert.equal(new Set(recommendations.videos.map(v=>v.id)).size,10);for(const item of [...recommendations.channels,...recommendations.videos,...recommendations.whatsapp])assert.equal(new URL(item.url).protocol,'https:');assert(readFileSync('canais.html','utf8').includes('titularidade não confirmada'));console.log('Validated recommendations: unique videos, HTTPS and verification limits.');
 
 assert(readFileSync('canais.html','utf8').includes('template=video.yml'));assert(recommendations.videos.every(v=>v.moderation_status==='pending_full_review'));assert(recommendations.moderation_policy.publication.includes('não são publicadas automaticamente'));console.log('Validated review gate and explicit pending moderation status.');
 
@@ -55,3 +55,5 @@ const access=JSON.parse(readFileSync('acessos.json','utf8'));assert.equal(access
 const pec=readFileSync('pec-6x1.html','utf8');for(const ref of ['materia/174386','14/10/2026','15/10/2026','75','60 dias','mais 12 meses','sem data localizada'])assert(pec.includes(ref));assert(readFileSync('sw.js','utf8').includes('pec-6x1.html'));assert(readFileSync('sitemap.xml','utf8').includes('/pec-6x1'));console.log('Validated sourced PEC publication, pending agenda and PWA inclusion.');
 
 assert(pec.includes('id="analise-argumentativa"'));assert(pec.includes('55 horas ou mais'));assert(pec.includes('não quantifica o efeito específico'));assert(pec.includes('não de um aumento obrigatório de 10%'));assert(pec.includes('who.int')&&pec.includes('ilo.org'));console.log('Validated argumentation, source attribution and limits of health/economic inferences.');
+
+assert.equal(recommendations.videos.filter(v=>v.id==='OhF5qTXEyDA').length,1);assert(recommendations.highlighted_resources.some(r=>r.url==='https://data2comms.com.br/links-lula/'));assert(!readFileSync('tendencias.html','utf8').includes('pt.org.br/lula-/'));console.log('Validated new reference, deduplication and corrected PT link.');

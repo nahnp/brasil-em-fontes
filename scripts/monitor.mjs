@@ -1,5 +1,7 @@
-import { performance } from 'node:perf_hooks';
-const roots=["https://brasil-em-fontes.vocalmoose64.chatgpt.site","https://nahnp.github.io/brasil-em-fontes","https://brasil-em-fontes-acesso-3.vocalmoose64.chatgpt.site","https://brasil-em-fontes-acesso-4.vocalmoose64.chatgpt.site","https://brasil-em-fontes-acesso-5.vocalmoose64.chatgpt.site"];
-let failures=0;
-for(const root of roots)for(const path of ['','canais.html','monitoramento.html','manifest.webmanifest']){const started=performance.now();try{const r=await fetch(root+'/'+path,{signal:AbortSignal.timeout(20000),cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const body=await r.text();if(path==='manifest.webmanifest'){const manifest=JSON.parse(body);if(!manifest.icons?.length||manifest.display!=='standalone')throw Error('Invalid manifest')}else if(!body.includes('Brasil em Fontes'))throw Error('Unexpected content');console.log(JSON.stringify({url:root+'/'+path,status:r.status,duration_ms:Math.round(performance.now()-started)}));}catch(error){failures++;console.error(JSON.stringify({url:root+'/'+path,error:error.message}));}}
-if(failures)process.exitCode=1;
+import fs from 'node:fs';
+const pages=fs.readdirSync('.').filter(p=>p.endsWith('.html'));
+const roots=JSON.parse(fs.readFileSync('acessos.json','utf8')).mirrors.map(m=>m.url);
+const paths=[...pages.filter(p=>p!=='offline.html').flatMap(p=>[p,p.replace('.html','')]),'manifest.webmanifest'];
+const jobs=roots.flatMap(root=>paths.map(path=>({url:root+'/'+path,path})));let next=0,failures=0;
+async function worker(){while(next<jobs.length){const {url,path}=jobs[next++];const start=Date.now();try{const r=await fetch(url,{signal:AbortSignal.timeout(15000),cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const body=await r.text();if(path==='manifest.webmanifest'){if(JSON.parse(body).display!=='standalone')throw Error('Invalid manifest');}else if(!body.includes('Brasil em Fontes'))throw Error('Unexpected content');console.log(JSON.stringify({url,status:r.status,duration_ms:Date.now()-start}));}catch(e){failures++;console.error(JSON.stringify({url,error:e.message}));}}}
+await Promise.all(Array.from({length:8},worker));console.log(JSON.stringify({checked:jobs.length,failures}));if(failures)process.exitCode=1;
