@@ -1,0 +1,101 @@
+{
+  "name": "Brasil em Fontes",
+  "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/",
+  "description": "Portal independente de fontes sobre o Brasil, cidadania, cultura e privacidade digital.",
+  "editorial_policy": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/sobre",
+  "corrections": "https://github.com/nahnp/brasil-em-fontes/issues",
+  "limits": "Não é fonte governamental nem serviço de notícias em tempo real. Consulte atribuições e pendências de cada página.",
+  "pages": [
+    {
+      "title": "Conheça a origem. Confira o contexto.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/canais",
+      "path": "canais.html",
+      "description": "Canais e vídeos sobre política brasileira: UOL, Mídia NINJA, fontes indicadas pela comunidade e comunicação partidária identificada.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "Informe com cuidado. Procure o canal certo.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/cidadania",
+      "path": "cidadania.html",
+      "description": "Canais oficiais de cidadania: TSE, MPF e Fala.BR. Orientações para consultar informações e comunicar possíveis irregularidades com cuidado.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "Comunicação política: assista com contexto.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/destaques",
+      "path": "destaques.html",
+      "description": "Live de André Janones e vídeo Mídia NINJA com resumo atribuído, contexto eleitoral e checagem oficial sobre votação e prova de vida do INSS.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "Ditadura, Lula e democracia brasileira.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/filmoteca",
+      "path": "filmoteca.html",
+      "description": "Filmes e documentários sobre a ditadura brasileira, Lula e o 8 de janeiro. Links legais com acesso gratuito, assinatura e fichas identificados.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "Entenda o Brasil. Comece pela fonte.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/",
+      "path": "index.html",
+      "description": "Brasil em Fontes: canais, documentos públicos, cronologias e filmes sobre o Brasil. Informação com origem, contexto e colaboração.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "“A casa caiu”: o que conferir antes de compartilhar.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/materia-borelli",
+      "path": "materia-borelli.html",
+      "description": "Leitura crítica de A casa caiu, de Samuel Borelli: fontes, contexto e afirmações que exigem apuração antes do compartilhamento.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "Disponibilidade, conteúdo e participação.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/monitoramento",
+      "path": "monitoramento.html",
+      "description": "Painel público Brasil em Fontes: disponibilidade amostral, conteúdo, contribuições e métricas locais opcionais com privacidade.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "Fim da escala 6x1: o que o Senado aprovou.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/pec-6x1",
+      "path": "pec-6x1.html",
+      "description": "PEC 221/2019 aprovada em dois turnos no Senado por 75 a 1: resultado oficial, benefícios, desafios e transição para 42 e 40 horas semanais.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "Proton explicado: VPN, e-mail, aplicativos e privacidade na Suíça",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/proton-privacidade",
+      "path": "proton-privacidade.html",
+      "description": "Guia simples para usar Proton VPN, proteger o e-mail, conhecer os aplicativos e entender os limites da legislação suíça.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "Conheça a origem. Entenda os limites.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/sobre",
+      "path": "sobre.html",
+      "description": "Conheça o projeto Brasil em Fontes, seus critérios editoriais, a política de correções e os limites dos conteúdos.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "Tails no pen drive: instalação e primeiros passos",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/tails-no-pendrive",
+      "path": "tails-no-pendrive.html",
+      "description": "Aprenda a preparar, verificar e gravar Tails no pen drive pelo Windows, iniciar Tor e entender o armazenamento persistente.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "SEO e tendências",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/tendencias",
+      "path": "tendencias.html",
+      "description": "Brasil em Fontes: canais, documentos públicos, cronologias e filmes sobre o Brasil. Informação com origem, contexto e colaboração.",
+      "language": "pt-BR"
+    },
+    {
+      "title": "O que aconteceu. O que ainda falta saber.",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/timeline",
+      "path": "timeline.html",
+      "description": "Cronologias Meta e TSE e reportagem UOL sobre Daniel Vorcaro, com datas, fontes, contrapontos e limites de evidência.",
+      "language": "pt-BR"
+    }
+  ]
+}
