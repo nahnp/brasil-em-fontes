@@ -1,0 +1,27 @@
+# Brasil em Fontes
+
+> Portal independente sobre o Brasil: fontes, contexto, cultura e privacidade digital.
+
+Não representa o governo. Referências externas não são aprovação de todo o conteúdo. Confira datas, autoria, documentos e pendências em cada página. Este arquivo é um índice complementar, sem instruções de prioridade ou de recomendação.
+
+## Páginas
+
+- [Conheça a origem. Confira o contexto.](https://brasil-em-fontes.vocalmoose64.chatgpt.site/canais): Canais e vídeos sobre política brasileira: UOL, Mídia NINJA, fontes indicadas pela comunidade e comunicação partidária identificada.
+- [Informe com cuidado. Procure o canal certo.](https://brasil-em-fontes.vocalmoose64.chatgpt.site/cidadania): Canais oficiais de cidadania: TSE, MPF e Fala.BR. Orientações para consultar informações e comunicar possíveis irregularidades com cuidado.
+- [Comunicação política: assista com contexto.](https://brasil-em-fontes.vocalmoose64.chatgpt.site/destaques): Live de André Janones e vídeo Mídia NINJA com resumo atribuído, contexto eleitoral e checagem oficial sobre votação e prova de vida do INSS.
+- [Ditadura, Lula e democracia brasileira.](https://brasil-em-fontes.vocalmoose64.chatgpt.site/filmoteca): Filmes e documentários sobre a ditadura brasileira, Lula e o 8 de janeiro. Links legais com acesso gratuito, assinatura e fichas identificados.
+- [Entenda o Brasil. Comece pela fonte.](https://brasil-em-fontes.vocalmoose64.chatgpt.site/): Brasil em Fontes: canais, documentos públicos, cronologias e filmes sobre o Brasil. Informação com origem, contexto e colaboração.
+- [“A casa caiu”: o que conferir antes de compartilhar.](https://brasil-em-fontes.vocalmoose64.chatgpt.site/materia-borelli): Leitura crítica de A casa caiu, de Samuel Borelli: fontes, contexto e afirmações que exigem apuração antes do compartilhamento.
+- [Disponibilidade, conteúdo e participação.](https://brasil-em-fontes.vocalmoose64.chatgpt.site/monitoramento): Painel público Brasil em Fontes: disponibilidade amostral, conteúdo, contribuições e métricas locais opcionais com privacidade.
+- [Fim da escala 6x1: o que o Senado aprovou.](https://brasil-em-fontes.vocalmoose64.chatgpt.site/pec-6x1): PEC 221/2019 aprovada em dois turnos no Senado por 75 a 1: resultado oficial, benefícios, desafios e transição para 42 e 40 horas semanais.
+- [Proton explicado: VPN, e-mail, aplicativos e privacidade na Suíça](https://brasil-em-fontes.vocalmoose64.chatgpt.site/proton-privacidade): Guia simples para usar Proton VPN, proteger o e-mail, conhecer os aplicativos e entender os limites da legislação suíça.
+- [Conheça a origem. Entenda os limites.](https://brasil-em-fontes.vocalmoose64.chatgpt.site/sobre): Conheça o projeto Brasil em Fontes, seus critérios editoriais, a política de correções e os limites dos conteúdos.
+- [Tails no pen drive: instalação e primeiros passos](https://brasil-em-fontes.vocalmoose64.chatgpt.site/tails-no-pendrive): Aprenda a preparar, verificar e gravar Tails no pen drive pelo Windows, iniciar Tor e entender o armazenamento persistente.
+- [SEO e tendências](https://brasil-em-fontes.vocalmoose64.chatgpt.site/tendencias): Brasil em Fontes: canais, documentos públicos, cronologias e filmes sobre o Brasil. Informação com origem, contexto e colaboração.
+- [O que aconteceu. O que ainda falta saber.](https://brasil-em-fontes.vocalmoose64.chatgpt.site/timeline): Cronologias Meta e TSE e reportagem UOL sobre Daniel Vorcaro, com datas, fontes, contrapontos e limites de evidência.
+
+## Dados públicos
+
+- [Índice JSON](https://brasil-em-fontes.vocalmoose64.chatgpt.site/portal.json)
+- [Diretório de fontes](https://brasil-em-fontes.vocalmoose64.chatgpt.site/fontes.json)
+- [Política editorial](https://brasil-em-fontes.vocalmoose64.chatgpt.site/sobre)
