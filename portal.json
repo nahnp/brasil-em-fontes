@@ -103,6 +103,13 @@
       "path": "meta-e-lula.html",
       "description": "Fontes, contrapontos e limites de verificação sobre as plataformas Meta e canais de WhatsApp.",
       "language": "pt-BR"
+    },
+    {
+      "title": "Tails e Llama no pen drive: IA local e offline",
+      "url": "https://brasil-em-fontes.vocalmoose64.chatgpt.site/tails-llama-no-pendrive",
+      "path": "tails-llama-no-pendrive.html",
+      "description": "Tutorial experimental de Tails com Llama local: persistência, modelo GGUF, compilação llama.cpp, configuração CPU e primeiros passos offline.",
+      "language": "pt-BR"
     }
   ]
 }
