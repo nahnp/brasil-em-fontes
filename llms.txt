@@ -27,3 +27,5 @@ Não representa o governo. Referências externas não são aprovação de todo o
 - [Política editorial](https://brasil-em-fontes.vocalmoose64.chatgpt.site/sobre)
 
 - [Meta e conteúdos sobre Lula](https://brasil-em-fontes.vocalmoose64.chatgpt.site/meta-e-lula): Levantamento público com alegações, contrapontos e limitações; não é auditoria interna de entrega.
+
+- [Tails e Llama no pen drive: IA local e offline](https://brasil-em-fontes.vocalmoose64.chatgpt.site/tails-llama-no-pendrive): Configuração experimental de IA local; sem validação em Tails real.
