@@ -1,4 +1,4 @@
-const CACHE='brasil-fontes-public-v12';
+const CACHE='brasil-fontes-public-v13';
 const ASSETS=['./', 'index.html','tails-llama-no-pendrive.html','tails-llama-guia.json','proton-apps.png','meta-e-lula.html','meta-investigacao.json','logo.svg','logo.png','logo-horizontal.svg','sobre.html','portal.json','proton-privacidade.html','tails-no-pendrive.html','pec-6x1.html','article-share.js', 'cidadania.html', 'timeline.html', 'canais.html', 'filmoteca.html', 'destaques.html', 'materia-borelli.html', 'monitoramento.html', 'tendencias.html', 'tendencias.js', 'offline.html', 'style.css', 'app.js', 'cidadania.js', 'timeline.js', 'pwa.js', 'tiktok-home.js', 'monitoramento.js', 'fontes.json', 'timeline-data.json', 'canais.json', 'filmoteca.json', 'acessos.json', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 const ROOT=new URL('./',self.location.href);const allowed=new Set(ASSETS.map(p=>new URL(p,ROOT).pathname));
 // Redirected responses cannot be returned for navigation requests with redirect mode manual.
