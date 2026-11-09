@@ -1,5 +1,21 @@
 # Brasil em Fontes · Brazil at the source
 
+<!-- nexus-docs:start -->
+## Documentação e apresentação · 2026-11-09
+
+Portal de informação pública com consulta às fontes e recursos de cidadania.
+
+- [Guia do projeto](docs/GUIA_DO_PROJETO.md)
+- [Apresentação](docs/APRESENTACAO.md)
+- [Estado e validação](docs/ESTADO_E_VALIDACAO.md)
+- [Continuidade](docs/CONTINUIDADE.md)
+- [Índice de toda a documentação](docs/INDICE.md)
+
+**Limite atual:** Mudanças neste repositório público exigem revisão humana/CODEOWNER. Operação privada e anexos ficam fora dele.
+
+A revisão documental não certifica operação, inferência ou serviços externos. Consulte a evidência e os limites no guia de validação.
+<!-- nexus-docs:end -->
+
 Um portal independente, gratuito para visitantes, que ajuda o mundo a encontrar informações públicas sobre o Brasil e verificar sua origem. Não representa o governo nem garante a veracidade de cada publicação externa.
 
 **[Abrir portal](https://brasil-em-fontes.vocalmoose64.chatgpt.site/) · [Cópia no GitHub Pages](https://nahnp.github.io/brasil-em-fontes/)**
